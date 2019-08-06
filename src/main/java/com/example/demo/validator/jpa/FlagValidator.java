@@ -1,4 +1,4 @@
-package com.example.demo.validator;
+package com.example.demo.validator.jpa;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

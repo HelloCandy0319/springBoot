@@ -1,6 +1,6 @@
 package com.example.demo.entity.cloudTest;
 
-import com.example.demo.validator.FlagValidator;
+import com.example.demo.validator.jpa.FlagValidator;
 import lombok.Data;
 
 import javax.persistence.*;
