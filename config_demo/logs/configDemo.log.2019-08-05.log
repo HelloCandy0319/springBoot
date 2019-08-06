@@ -1,0 +1,541 @@
+2019-08-05 09:17:22.474 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2019-08-05 09:17:22.481 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-05 09:17:22.482 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-08-05 09:17:22.650 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2019-08-05 09:17:22.663 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-05 09:17:22.719 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6973bf95, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ddc8ecb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@229d10bd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47542153, org.springframework.test.context.transaction.TransactionalTestExecutionListener@33afa13b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7a4ccb53, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@309e345f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@56a6d5a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@18ce0030, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4445629, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@45b9a632, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@25d250c6]
+2019-08-05 09:17:23.275 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-54HEKKB with PID 18344 (started by 94599 in C:\File\cloud_demo\config_demo)
+2019-08-05 09:17:23.276 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2019-08-05 09:17:23.324 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 09:17:23 CST 2019]; root of context hierarchy
+2019-08-05 09:17:23.827 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-08-05 09:17:25.138 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-08-05 09:17:25.923 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-08-05 09:17:25.924 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-08-05 09:17:25.924 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-08-05 09:17:26.301 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$bbc1a340] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 09:17:26.419 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$a8e478a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 09:17:26.427 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-08-05 09:17:27.808 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 09:17:27.848 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-08-05 09:17:28.057 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-08-05 09:17:28.060 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-05 09:17:28.062 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-08-05 09:17:28.241 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-08-05 09:17:28.549 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-05 09:17:30.157 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+2019-08-05 09:17:30.165 [main] DEBUG org.hibernate.SQL - drop table if exists app_token
+2019-08-05 09:17:30.186 [main] DEBUG org.hibernate.SQL - drop table if exists app_user_infos
+2019-08-05 09:17:30.197 [main] DEBUG org.hibernate.SQL - drop table if exists log
+2019-08-05 09:17:30.207 [main] DEBUG org.hibernate.SQL - drop table if exists role
+2019-08-05 09:17:30.219 [main] DEBUG org.hibernate.SQL - drop table if exists role_user
+2019-08-05 09:17:30.231 [main] DEBUG org.hibernate.SQL - drop table if exists user
+2019-08-05 09:17:30.242 [main] DEBUG org.hibernate.SQL - create table app_token (id bigint not null auto_increment, app_id varchar(255), build_time varchar(255), token varchar(255), primary key (id))
+2019-08-05 09:17:30.259 [main] DEBUG org.hibernate.SQL - create table app_user_infos (app_id varchar(255) not null, bind_ip varchar(255), mark varchar(255), request_count bigint, secret tinyblob, status integer not null, primary key (app_id))
+2019-08-05 09:17:30.274 [main] DEBUG org.hibernate.SQL - create table log (id bigint not null auto_increment, begin_time datetime, client_url varchar(255), method varchar(255), param_data varchar(255), return_time datetime, primary key (id))
+2019-08-05 09:17:30.288 [main] DEBUG org.hibernate.SQL - create table role (id bigint not null auto_increment, role_name varchar(255), primary key (id))
+2019-08-05 09:17:30.303 [main] DEBUG org.hibernate.SQL - create table role_user (id bigint not null auto_increment, role_id bigint, user_id bigint, primary key (id))
+2019-08-05 09:17:30.338 [main] DEBUG org.hibernate.SQL - create table user (id bigint not null auto_increment, age integer, password varchar(255) not null, username varchar(255) not null, primary key (id))
+2019-08-05 09:17:30.360 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+2019-08-05 09:17:30.448 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 09:17:30.510 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 09:17:30.511 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-08-05 09:17:30.530 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-05 09:17:30.739 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+2019-08-05 09:17:30.739 [main] DEBUG org.hibernate.SQL - alter table library drop foreign key FK2kamxh7sx0td8ap1x3swt452h
+2019-08-05 09:17:30.787 [main] DEBUG org.hibernate.SQL - alter table person drop foreign key FKg1e1kjf5phah57wd8q033fqms
+2019-08-05 09:17:30.827 [main] DEBUG org.hibernate.SQL - alter table phone_users drop foreign key FKsvd4b8oxk3hfr6kqnm1rvj8hm
+2019-08-05 09:17:30.875 [main] DEBUG org.hibernate.SQL - alter table phone_users drop foreign key FKgojd56v4fggcln1kxppwlxf8y
+2019-08-05 09:17:30.919 [main] DEBUG org.hibernate.SQL - alter table student_books drop foreign key FKcjwk6jykbb7k098269uevpfh5
+2019-08-05 09:17:30.966 [main] DEBUG org.hibernate.SQL - alter table student_books drop foreign key FK3frhbxlo6xmie3exqf3y1d0wh
+2019-08-05 09:17:31.006 [main] DEBUG org.hibernate.SQL - alter table user_phones drop foreign key FK8a99k1bvo4hgvib6t1ui8riob
+2019-08-05 09:17:31.049 [main] DEBUG org.hibernate.SQL - alter table user_phones drop foreign key FK7cf4cc4dlmjvpucfxaqrj9lwl
+2019-08-05 09:17:31.105 [main] DEBUG org.hibernate.SQL - drop table if exists article
+2019-08-05 09:17:31.119 [main] DEBUG org.hibernate.SQL - drop table if exists books
+2019-08-05 09:17:31.146 [main] DEBUG org.hibernate.SQL - drop table if exists library
+2019-08-05 09:17:31.163 [main] DEBUG org.hibernate.SQL - drop table if exists person
+2019-08-05 09:17:31.177 [main] DEBUG org.hibernate.SQL - drop table if exists phone
+2019-08-05 09:17:31.200 [main] DEBUG org.hibernate.SQL - drop table if exists phone_users
+2019-08-05 09:17:31.211 [main] DEBUG org.hibernate.SQL - drop table if exists student
+2019-08-05 09:17:31.225 [main] DEBUG org.hibernate.SQL - drop table if exists student_books
+2019-08-05 09:17:31.244 [main] DEBUG org.hibernate.SQL - drop table if exists user
+2019-08-05 09:17:31.253 [main] DEBUG org.hibernate.SQL - drop table if exists user_phones
+2019-08-05 09:17:31.256 [main] DEBUG org.hibernate.SQL - create table article (id bigint not null auto_increment, content varchar(255), primary key (id))
+2019-08-05 09:17:31.270 [main] DEBUG org.hibernate.SQL - create table books (id bigint not null auto_increment, book_name varchar(255), primary key (id))
+2019-08-05 09:17:31.285 [main] DEBUG org.hibernate.SQL - create table library (id bigint not null auto_increment, name varchar(255), student_id bigint, primary key (id))
+2019-08-05 09:17:31.299 [main] DEBUG org.hibernate.SQL - create table person (id bigint not null auto_increment, user_name varchar(255), article_id bigint, primary key (id))
+2019-08-05 09:17:31.311 [main] DEBUG org.hibernate.SQL - create table phone (id bigint not null auto_increment, name varchar(255), primary key (id))
+2019-08-05 09:17:31.323 [main] DEBUG org.hibernate.SQL - create table phone_users (Phone_id bigint not null, users_id bigint not null)
+2019-08-05 09:17:31.335 [main] DEBUG org.hibernate.SQL - create table student (id bigint not null auto_increment, name varchar(255), primary key (id))
+2019-08-05 09:17:31.356 [main] DEBUG org.hibernate.SQL - create table student_books (Student_id bigint not null, books_id bigint not null)
+2019-08-05 09:17:31.369 [main] DEBUG org.hibernate.SQL - create table user (id bigint not null auto_increment, name varchar(255), primary key (id))
+2019-08-05 09:17:31.381 [main] DEBUG org.hibernate.SQL - create table user_phones (User_id bigint not null, phones_id bigint not null)
+2019-08-05 09:17:31.396 [main] DEBUG org.hibernate.SQL - alter table student_books add constraint UK_p08lqjfkljl187y4u5xo3a1go unique (books_id)
+2019-08-05 09:17:31.418 [main] DEBUG org.hibernate.SQL - alter table library add constraint FK2kamxh7sx0td8ap1x3swt452h foreign key (student_id) references student (id)
+2019-08-05 09:17:31.446 [main] DEBUG org.hibernate.SQL - alter table person add constraint FKg1e1kjf5phah57wd8q033fqms foreign key (article_id) references article (id)
+2019-08-05 09:17:31.468 [main] DEBUG org.hibernate.SQL - alter table phone_users add constraint FKsvd4b8oxk3hfr6kqnm1rvj8hm foreign key (users_id) references user (id)
+2019-08-05 09:17:31.494 [main] DEBUG org.hibernate.SQL - alter table phone_users add constraint FKgojd56v4fggcln1kxppwlxf8y foreign key (Phone_id) references phone (id)
+2019-08-05 09:17:31.518 [main] DEBUG org.hibernate.SQL - alter table student_books add constraint FKcjwk6jykbb7k098269uevpfh5 foreign key (books_id) references books (id)
+2019-08-05 09:17:31.538 [main] DEBUG org.hibernate.SQL - alter table student_books add constraint FK3frhbxlo6xmie3exqf3y1d0wh foreign key (Student_id) references student (id)
+2019-08-05 09:17:31.563 [main] DEBUG org.hibernate.SQL - alter table user_phones add constraint FK8a99k1bvo4hgvib6t1ui8riob foreign key (phones_id) references phone (id)
+2019-08-05 09:17:31.590 [main] DEBUG org.hibernate.SQL - alter table user_phones add constraint FK7cf4cc4dlmjvpucfxaqrj9lwl foreign key (User_id) references user (id)
+2019-08-05 09:17:31.613 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+2019-08-05 09:17:31.633 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 09:17:34.303 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 09:17:23 CST 2019]; root of context hierarchy
+2019-08-05 09:17:34.472 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/book/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.Book> com.example.demo.controller.BookController.bookList()
+2019-08-05 09:17:34.476 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.demo.controller.IndexController.index(java.security.Principal)
+2019-08-05 09:17:34.477 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/student/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.User> com.example.demo.controller.StudentController.userList()
+2019-08-05 09:17:34.486 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.userList()
+2019-08-05 09:17:34.486 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/find],methods=[POST]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUser(com.example.demo.entity.cloudTest.User)
+2019-08-05 09:17:34.487 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[POST]}" onto public java.lang.String com.example.demo.controller.UserController.saveInfo(com.example.demo.entity.cloudTest.User)
+2019-08-05 09:17:34.487 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/grantsAge],methods=[GET],params=[age]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUsersGrants(int)
+2019-08-05 09:17:34.493 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-05 09:17:34.494 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-05 09:17:34.634 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 09:17:34.635 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 09:17:34.755 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 09:17:35.664 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-08-05 09:17:35.843 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1abf951a, org.springframework.security.web.context.SecurityContextPersistenceFilter@2173e4d5, org.springframework.security.web.header.HeaderWriterFilter@7c4a03a, org.springframework.security.web.authentication.logout.LogoutFilter@13c81bc5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4177d422, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1da32baf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@582ca1e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46b2a11a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@629600d7, org.springframework.security.web.session.SessionManagementFilter@3691d4da, org.springframework.security.web.access.ExceptionTranslationFilter@2954c429, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@903c13]
+2019-08-05 09:17:35.876 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24d0c6a4, org.springframework.security.web.context.SecurityContextPersistenceFilter@470b5213, org.springframework.security.web.header.HeaderWriterFilter@391e5ffa, org.springframework.security.web.authentication.logout.LogoutFilter@20518250, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7836c79, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fa2143d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64887fbc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50e24ea4, org.springframework.security.web.session.SessionManagementFilter@f4d391c, org.springframework.security.web.access.ExceptionTranslationFilter@14bf9fd0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30cb223b]
+2019-08-05 09:17:36.185 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 13.343 seconds (JVM running for 14.906)
+2019-08-05 09:17:36.400 [main] DEBUG org.hibernate.SQL - insert into user (name) values (?)
+2019-08-05 09:17:36.435 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [张三]
+2019-08-05 09:17:36.449 [main] DEBUG org.hibernate.SQL - insert into phone (name) values (?)
+2019-08-05 09:17:36.451 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [小米8]
+2019-08-05 09:17:36.454 [main] DEBUG org.hibernate.SQL - insert into phone (name) values (?)
+2019-08-05 09:17:36.455 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [小米9]
+2019-08-05 09:17:36.456 [main] DEBUG org.hibernate.SQL - insert into user (name) values (?)
+2019-08-05 09:17:36.457 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [李四]
+2019-08-05 09:17:36.489 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:17:36.491 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2019-08-05 09:17:36.491 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [1]
+2019-08-05 09:17:36.494 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:17:36.495 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2019-08-05 09:17:36.495 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [2]
+2019-08-05 09:17:36.496 [main] DEBUG org.hibernate.SQL - insert into phone_users (Phone_id, users_id) values (?, ?)
+2019-08-05 09:17:36.496 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2019-08-05 09:17:36.496 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [1]
+2019-08-05 09:17:36.498 [main] DEBUG org.hibernate.SQL - insert into phone_users (Phone_id, users_id) values (?, ?)
+2019-08-05 09:17:36.499 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2019-08-05 09:17:36.500 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [2]
+2019-08-05 09:17:36.501 [main] DEBUG org.hibernate.SQL - insert into phone_users (Phone_id, users_id) values (?, ?)
+2019-08-05 09:17:36.502 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+2019-08-05 09:17:36.502 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [1]
+2019-08-05 09:17:36.503 [main] DEBUG org.hibernate.SQL - insert into phone_users (Phone_id, users_id) values (?, ?)
+2019-08-05 09:17:36.503 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+2019-08-05 09:17:36.503 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [2]
+2019-08-05 09:17:36.522 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 09:17:23 CST 2019]; root of context hierarchy
+2019-08-05 09:17:36.528 [Thread-3] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method 'close' failed on bean with name 'testEntityManagers': java.lang.IllegalStateException: EntityManager is closed
+2019-08-05 09:17:36.530 [Thread-3] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 09:17:36.531 [Thread-3] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 09:19:26.848 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2019-08-05 09:19:26.858 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-05 09:19:26.860 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-08-05 09:19:27.036 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2019-08-05 09:19:27.048 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-05 09:19:27.082 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6973bf95, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ddc8ecb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@229d10bd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47542153, org.springframework.test.context.transaction.TransactionalTestExecutionListener@33afa13b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7a4ccb53, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@309e345f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@56a6d5a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@18ce0030, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4445629, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@45b9a632, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@25d250c6]
+2019-08-05 09:19:27.680 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-54HEKKB with PID 20460 (started by 94599 in C:\File\cloud_demo\config_demo)
+2019-08-05 09:19:27.680 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2019-08-05 09:19:27.753 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 09:19:27 CST 2019]; root of context hierarchy
+2019-08-05 09:19:28.377 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-08-05 09:19:30.185 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-08-05 09:19:31.168 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-08-05 09:19:31.170 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-08-05 09:19:31.172 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-08-05 09:19:31.475 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$3b3e6602] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 09:19:31.551 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$28613b6a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 09:19:31.557 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-08-05 09:19:32.488 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 09:19:32.517 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-08-05 09:19:32.693 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-08-05 09:19:32.697 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-05 09:19:32.699 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-08-05 09:19:32.858 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-08-05 09:19:33.108 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-05 09:19:34.229 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+2019-08-05 09:19:34.237 [main] DEBUG org.hibernate.SQL - drop table if exists app_token
+2019-08-05 09:19:34.246 [main] DEBUG org.hibernate.SQL - drop table if exists app_user_infos
+2019-08-05 09:19:34.259 [main] DEBUG org.hibernate.SQL - drop table if exists log
+2019-08-05 09:19:34.290 [main] DEBUG org.hibernate.SQL - drop table if exists role
+2019-08-05 09:19:34.300 [main] DEBUG org.hibernate.SQL - drop table if exists role_user
+2019-08-05 09:19:34.319 [main] DEBUG org.hibernate.SQL - drop table if exists user
+2019-08-05 09:19:34.337 [main] DEBUG org.hibernate.SQL - create table app_token (id bigint not null auto_increment, app_id varchar(255), build_time varchar(255), token varchar(255), primary key (id))
+2019-08-05 09:19:34.358 [main] DEBUG org.hibernate.SQL - create table app_user_infos (app_id varchar(255) not null, bind_ip varchar(255), mark varchar(255), request_count bigint, secret tinyblob, status integer not null, primary key (app_id))
+2019-08-05 09:19:34.375 [main] DEBUG org.hibernate.SQL - create table log (id bigint not null auto_increment, begin_time datetime, client_url varchar(255), method varchar(255), param_data varchar(255), return_time datetime, primary key (id))
+2019-08-05 09:19:34.396 [main] DEBUG org.hibernate.SQL - create table role (id bigint not null auto_increment, role_name varchar(255), primary key (id))
+2019-08-05 09:19:34.441 [main] DEBUG org.hibernate.SQL - create table role_user (id bigint not null auto_increment, role_id bigint, user_id bigint, primary key (id))
+2019-08-05 09:19:34.456 [main] DEBUG org.hibernate.SQL - create table user (id bigint not null auto_increment, age integer, password varchar(255) not null, username varchar(255) not null, primary key (id))
+2019-08-05 09:19:34.476 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+2019-08-05 09:19:34.541 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 09:19:34.579 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 09:19:34.579 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-08-05 09:19:34.592 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-05 09:19:34.772 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+2019-08-05 09:19:34.773 [main] DEBUG org.hibernate.SQL - alter table library drop foreign key FK2kamxh7sx0td8ap1x3swt452h
+2019-08-05 09:19:34.873 [main] DEBUG org.hibernate.SQL - alter table person drop foreign key FKg1e1kjf5phah57wd8q033fqms
+2019-08-05 09:19:34.917 [main] DEBUG org.hibernate.SQL - alter table phone_users drop foreign key FKsvd4b8oxk3hfr6kqnm1rvj8hm
+2019-08-05 09:19:34.980 [main] DEBUG org.hibernate.SQL - alter table phone_users drop foreign key FKgojd56v4fggcln1kxppwlxf8y
+2019-08-05 09:19:35.037 [main] DEBUG org.hibernate.SQL - alter table student_books drop foreign key FKcjwk6jykbb7k098269uevpfh5
+2019-08-05 09:19:35.085 [main] DEBUG org.hibernate.SQL - alter table student_books drop foreign key FK3frhbxlo6xmie3exqf3y1d0wh
+2019-08-05 09:19:35.142 [main] DEBUG org.hibernate.SQL - alter table user_phones drop foreign key FK8a99k1bvo4hgvib6t1ui8riob
+2019-08-05 09:19:35.225 [main] DEBUG org.hibernate.SQL - alter table user_phones drop foreign key FK7cf4cc4dlmjvpucfxaqrj9lwl
+2019-08-05 09:19:35.287 [main] DEBUG org.hibernate.SQL - drop table if exists article
+2019-08-05 09:19:35.307 [main] DEBUG org.hibernate.SQL - drop table if exists books
+2019-08-05 09:19:35.339 [main] DEBUG org.hibernate.SQL - drop table if exists library
+2019-08-05 09:19:35.351 [main] DEBUG org.hibernate.SQL - drop table if exists person
+2019-08-05 09:19:35.365 [main] DEBUG org.hibernate.SQL - drop table if exists phone
+2019-08-05 09:19:35.376 [main] DEBUG org.hibernate.SQL - drop table if exists phone_users
+2019-08-05 09:19:35.385 [main] DEBUG org.hibernate.SQL - drop table if exists student
+2019-08-05 09:19:35.393 [main] DEBUG org.hibernate.SQL - drop table if exists student_books
+2019-08-05 09:19:35.399 [main] DEBUG org.hibernate.SQL - drop table if exists user
+2019-08-05 09:19:35.412 [main] DEBUG org.hibernate.SQL - drop table if exists user_phones
+2019-08-05 09:19:35.430 [main] DEBUG org.hibernate.SQL - create table article (id bigint not null auto_increment, content varchar(255), primary key (id))
+2019-08-05 09:19:35.450 [main] DEBUG org.hibernate.SQL - create table books (id bigint not null auto_increment, book_name varchar(255), primary key (id))
+2019-08-05 09:19:35.469 [main] DEBUG org.hibernate.SQL - create table library (id bigint not null auto_increment, name varchar(255), student_id bigint, primary key (id))
+2019-08-05 09:19:35.498 [main] DEBUG org.hibernate.SQL - create table person (id bigint not null auto_increment, user_name varchar(255), article_id bigint, primary key (id))
+2019-08-05 09:19:35.518 [main] DEBUG org.hibernate.SQL - create table phone (id bigint not null auto_increment, name varchar(255), primary key (id))
+2019-08-05 09:19:35.537 [main] DEBUG org.hibernate.SQL - create table phone_users (Phone_id bigint not null, users_id bigint not null)
+2019-08-05 09:19:35.563 [main] DEBUG org.hibernate.SQL - create table student (id bigint not null auto_increment, name varchar(255), primary key (id))
+2019-08-05 09:19:35.592 [main] DEBUG org.hibernate.SQL - create table student_books (Student_id bigint not null, books_id bigint not null)
+2019-08-05 09:19:35.618 [main] DEBUG org.hibernate.SQL - create table user (id bigint not null auto_increment, name varchar(255), primary key (id))
+2019-08-05 09:19:35.702 [main] DEBUG org.hibernate.SQL - create table user_phones (User_id bigint not null, phones_id bigint not null)
+2019-08-05 09:19:35.741 [main] DEBUG org.hibernate.SQL - alter table student_books add constraint UK_p08lqjfkljl187y4u5xo3a1go unique (books_id)
+2019-08-05 09:19:35.954 [main] DEBUG org.hibernate.SQL - alter table library add constraint FK2kamxh7sx0td8ap1x3swt452h foreign key (student_id) references student (id)
+2019-08-05 09:19:36.007 [main] DEBUG org.hibernate.SQL - alter table person add constraint FKg1e1kjf5phah57wd8q033fqms foreign key (article_id) references article (id)
+2019-08-05 09:19:36.047 [main] DEBUG org.hibernate.SQL - alter table phone_users add constraint FKsvd4b8oxk3hfr6kqnm1rvj8hm foreign key (users_id) references user (id)
+2019-08-05 09:19:36.097 [main] DEBUG org.hibernate.SQL - alter table phone_users add constraint FKgojd56v4fggcln1kxppwlxf8y foreign key (Phone_id) references phone (id)
+2019-08-05 09:19:36.184 [main] DEBUG org.hibernate.SQL - alter table student_books add constraint FKcjwk6jykbb7k098269uevpfh5 foreign key (books_id) references books (id)
+2019-08-05 09:19:36.238 [main] DEBUG org.hibernate.SQL - alter table student_books add constraint FK3frhbxlo6xmie3exqf3y1d0wh foreign key (Student_id) references student (id)
+2019-08-05 09:19:36.327 [main] DEBUG org.hibernate.SQL - alter table user_phones add constraint FK8a99k1bvo4hgvib6t1ui8riob foreign key (phones_id) references phone (id)
+2019-08-05 09:19:36.416 [main] DEBUG org.hibernate.SQL - alter table user_phones add constraint FK7cf4cc4dlmjvpucfxaqrj9lwl foreign key (User_id) references user (id)
+2019-08-05 09:19:36.451 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+2019-08-05 09:19:36.467 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 09:19:38.454 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 09:19:27 CST 2019]; root of context hierarchy
+2019-08-05 09:19:38.666 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/book/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.Book> com.example.demo.controller.BookController.bookList()
+2019-08-05 09:19:38.674 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.demo.controller.IndexController.index(java.security.Principal)
+2019-08-05 09:19:38.675 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/student/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.User> com.example.demo.controller.StudentController.userList()
+2019-08-05 09:19:38.683 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.userList()
+2019-08-05 09:19:38.685 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/find],methods=[POST]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUser(com.example.demo.entity.cloudTest.User)
+2019-08-05 09:19:38.686 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/grantsAge],methods=[GET],params=[age]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUsersGrants(int)
+2019-08-05 09:19:38.688 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[POST]}" onto public java.lang.String com.example.demo.controller.UserController.saveInfo(com.example.demo.entity.cloudTest.User)
+2019-08-05 09:19:38.690 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-05 09:19:38.691 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-05 09:19:38.770 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 09:19:38.770 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 09:19:38.862 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 09:19:39.689 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-08-05 09:19:39.878 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@511bfbb0, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d4d0a14, org.springframework.security.web.header.HeaderWriterFilter@582ca1e2, org.springframework.security.web.authentication.logout.LogoutFilter@6ba355e4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@180d918a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@8167f57, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46b2a11a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a80a896, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79ee779c, org.springframework.security.web.session.SessionManagementFilter@38093ffe, org.springframework.security.web.access.ExceptionTranslationFilter@4c91a008, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77881b7a]
+2019-08-05 09:19:39.908 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@320ba79f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ccc971e, org.springframework.security.web.header.HeaderWriterFilter@20518250, org.springframework.security.web.authentication.logout.LogoutFilter@3c20e9d6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@76e2a621, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28269c65, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c9d833, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@333a2df2, org.springframework.security.web.session.SessionManagementFilter@7836c79, org.springframework.security.web.access.ExceptionTranslationFilter@1f6d7e7c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@29dfc68f]
+2019-08-05 09:19:40.199 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 12.953 seconds (JVM running for 14.206)
+2019-08-05 09:19:40.375 [main] DEBUG org.hibernate.SQL - insert into user (name) values (?)
+2019-08-05 09:19:40.405 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [张三]
+2019-08-05 09:19:40.417 [main] DEBUG org.hibernate.SQL - insert into phone (name) values (?)
+2019-08-05 09:19:40.419 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [小米8]
+2019-08-05 09:19:40.422 [main] DEBUG org.hibernate.SQL - insert into phone (name) values (?)
+2019-08-05 09:19:40.422 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [小米9]
+2019-08-05 09:19:40.423 [main] DEBUG org.hibernate.SQL - insert into user (name) values (?)
+2019-08-05 09:19:40.424 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [李四]
+2019-08-05 09:19:40.448 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:19:40.450 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2019-08-05 09:19:40.451 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [1]
+2019-08-05 09:19:40.453 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:19:40.454 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2019-08-05 09:19:40.454 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [2]
+2019-08-05 09:19:40.455 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:19:40.455 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+2019-08-05 09:19:40.455 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [1]
+2019-08-05 09:19:40.456 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:19:40.456 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+2019-08-05 09:19:40.457 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [2]
+2019-08-05 09:19:41.093 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 09:19:27 CST 2019]; root of context hierarchy
+2019-08-05 09:19:41.097 [Thread-3] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method 'close' failed on bean with name 'testEntityManagers': java.lang.IllegalStateException: EntityManager is closed
+2019-08-05 09:19:41.099 [Thread-3] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 09:19:41.100 [Thread-3] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 09:20:17.215 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2019-08-05 09:20:17.222 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-05 09:20:17.222 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-08-05 09:20:17.355 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2019-08-05 09:20:17.366 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-05 09:20:17.411 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6973bf95, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ddc8ecb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@229d10bd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47542153, org.springframework.test.context.transaction.TransactionalTestExecutionListener@33afa13b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7a4ccb53, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@309e345f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@56a6d5a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@18ce0030, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4445629, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@45b9a632, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@25d250c6]
+2019-08-05 09:20:18.000 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-54HEKKB with PID 7040 (started by 94599 in C:\File\cloud_demo\config_demo)
+2019-08-05 09:20:18.001 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2019-08-05 09:20:18.059 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 09:20:18 CST 2019]; root of context hierarchy
+2019-08-05 09:20:18.757 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-08-05 09:20:19.896 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-08-05 09:20:20.614 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-08-05 09:20:20.617 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-08-05 09:20:20.619 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-08-05 09:20:20.923 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$3b3e6602] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 09:20:21.031 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$28613b6a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 09:20:21.036 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-08-05 09:20:21.999 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 09:20:22.028 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-08-05 09:20:22.179 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-08-05 09:20:22.181 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-05 09:20:22.183 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-08-05 09:20:22.318 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-08-05 09:20:22.539 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-05 09:20:23.722 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+2019-08-05 09:20:23.728 [main] DEBUG org.hibernate.SQL - drop table if exists app_token
+2019-08-05 09:20:23.739 [main] DEBUG org.hibernate.SQL - drop table if exists app_user_infos
+2019-08-05 09:20:23.749 [main] DEBUG org.hibernate.SQL - drop table if exists log
+2019-08-05 09:20:23.763 [main] DEBUG org.hibernate.SQL - drop table if exists role
+2019-08-05 09:20:23.775 [main] DEBUG org.hibernate.SQL - drop table if exists role_user
+2019-08-05 09:20:23.790 [main] DEBUG org.hibernate.SQL - drop table if exists user
+2019-08-05 09:20:23.805 [main] DEBUG org.hibernate.SQL - create table app_token (id bigint not null auto_increment, app_id varchar(255), build_time varchar(255), token varchar(255), primary key (id))
+2019-08-05 09:20:23.823 [main] DEBUG org.hibernate.SQL - create table app_user_infos (app_id varchar(255) not null, bind_ip varchar(255), mark varchar(255), request_count bigint, secret tinyblob, status integer not null, primary key (app_id))
+2019-08-05 09:20:23.845 [main] DEBUG org.hibernate.SQL - create table log (id bigint not null auto_increment, begin_time datetime, client_url varchar(255), method varchar(255), param_data varchar(255), return_time datetime, primary key (id))
+2019-08-05 09:20:23.867 [main] DEBUG org.hibernate.SQL - create table role (id bigint not null auto_increment, role_name varchar(255), primary key (id))
+2019-08-05 09:20:23.888 [main] DEBUG org.hibernate.SQL - create table role_user (id bigint not null auto_increment, role_id bigint, user_id bigint, primary key (id))
+2019-08-05 09:20:23.910 [main] DEBUG org.hibernate.SQL - create table user (id bigint not null auto_increment, age integer, password varchar(255) not null, username varchar(255) not null, primary key (id))
+2019-08-05 09:20:23.933 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+2019-08-05 09:20:24.000 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 09:20:24.045 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 09:20:24.045 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-08-05 09:20:24.063 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-05 09:20:24.251 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+2019-08-05 09:20:24.252 [main] DEBUG org.hibernate.SQL - alter table library drop foreign key FK2kamxh7sx0td8ap1x3swt452h
+2019-08-05 09:20:24.319 [main] DEBUG org.hibernate.SQL - alter table person drop foreign key FKg1e1kjf5phah57wd8q033fqms
+2019-08-05 09:20:24.392 [main] DEBUG org.hibernate.SQL - alter table phone_users drop foreign key FKsvd4b8oxk3hfr6kqnm1rvj8hm
+2019-08-05 09:20:24.490 [main] DEBUG org.hibernate.SQL - alter table phone_users drop foreign key FKgojd56v4fggcln1kxppwlxf8y
+2019-08-05 09:20:24.547 [main] DEBUG org.hibernate.SQL - alter table student_books drop foreign key FKcjwk6jykbb7k098269uevpfh5
+2019-08-05 09:20:24.621 [main] DEBUG org.hibernate.SQL - alter table student_books drop foreign key FK3frhbxlo6xmie3exqf3y1d0wh
+2019-08-05 09:20:24.679 [main] DEBUG org.hibernate.SQL - alter table user_phones drop foreign key FK8a99k1bvo4hgvib6t1ui8riob
+2019-08-05 09:20:24.764 [main] DEBUG org.hibernate.SQL - alter table user_phones drop foreign key FK7cf4cc4dlmjvpucfxaqrj9lwl
+2019-08-05 09:20:24.839 [main] DEBUG org.hibernate.SQL - drop table if exists article
+2019-08-05 09:20:24.852 [main] DEBUG org.hibernate.SQL - drop table if exists books
+2019-08-05 09:20:24.865 [main] DEBUG org.hibernate.SQL - drop table if exists library
+2019-08-05 09:20:24.884 [main] DEBUG org.hibernate.SQL - drop table if exists person
+2019-08-05 09:20:24.916 [main] DEBUG org.hibernate.SQL - drop table if exists phone
+2019-08-05 09:20:24.929 [main] DEBUG org.hibernate.SQL - drop table if exists phone_users
+2019-08-05 09:20:24.944 [main] DEBUG org.hibernate.SQL - drop table if exists student
+2019-08-05 09:20:24.951 [main] DEBUG org.hibernate.SQL - drop table if exists student_books
+2019-08-05 09:20:24.968 [main] DEBUG org.hibernate.SQL - drop table if exists user
+2019-08-05 09:20:24.986 [main] DEBUG org.hibernate.SQL - drop table if exists user_phones
+2019-08-05 09:20:24.998 [main] DEBUG org.hibernate.SQL - create table article (id bigint not null auto_increment, content varchar(255), primary key (id))
+2019-08-05 09:20:25.020 [main] DEBUG org.hibernate.SQL - create table books (id bigint not null auto_increment, book_name varchar(255), primary key (id))
+2019-08-05 09:20:25.052 [main] DEBUG org.hibernate.SQL - create table library (id bigint not null auto_increment, name varchar(255), student_id bigint, primary key (id))
+2019-08-05 09:20:25.075 [main] DEBUG org.hibernate.SQL - create table person (id bigint not null auto_increment, user_name varchar(255), article_id bigint, primary key (id))
+2019-08-05 09:20:25.097 [main] DEBUG org.hibernate.SQL - create table phone (id bigint not null auto_increment, name varchar(255), primary key (id))
+2019-08-05 09:20:25.118 [main] DEBUG org.hibernate.SQL - create table phone_users (Phone_id bigint not null, users_id bigint not null)
+2019-08-05 09:20:25.131 [main] DEBUG org.hibernate.SQL - create table student (id bigint not null auto_increment, name varchar(255), primary key (id))
+2019-08-05 09:20:25.161 [main] DEBUG org.hibernate.SQL - create table student_books (Student_id bigint not null, books_id bigint not null)
+2019-08-05 09:20:25.174 [main] DEBUG org.hibernate.SQL - create table user (id bigint not null auto_increment, name varchar(255), primary key (id))
+2019-08-05 09:20:25.193 [main] DEBUG org.hibernate.SQL - create table user_phones (User_id bigint not null, phones_id bigint not null)
+2019-08-05 09:20:25.213 [main] DEBUG org.hibernate.SQL - alter table student_books add constraint UK_p08lqjfkljl187y4u5xo3a1go unique (books_id)
+2019-08-05 09:20:25.277 [main] DEBUG org.hibernate.SQL - alter table library add constraint FK2kamxh7sx0td8ap1x3swt452h foreign key (student_id) references student (id)
+2019-08-05 09:20:25.336 [main] DEBUG org.hibernate.SQL - alter table person add constraint FKg1e1kjf5phah57wd8q033fqms foreign key (article_id) references article (id)
+2019-08-05 09:20:25.377 [main] DEBUG org.hibernate.SQL - alter table phone_users add constraint FKsvd4b8oxk3hfr6kqnm1rvj8hm foreign key (users_id) references user (id)
+2019-08-05 09:20:25.455 [main] DEBUG org.hibernate.SQL - alter table phone_users add constraint FKgojd56v4fggcln1kxppwlxf8y foreign key (Phone_id) references phone (id)
+2019-08-05 09:20:25.513 [main] DEBUG org.hibernate.SQL - alter table student_books add constraint FKcjwk6jykbb7k098269uevpfh5 foreign key (books_id) references books (id)
+2019-08-05 09:20:25.564 [main] DEBUG org.hibernate.SQL - alter table student_books add constraint FK3frhbxlo6xmie3exqf3y1d0wh foreign key (Student_id) references student (id)
+2019-08-05 09:20:25.617 [main] DEBUG org.hibernate.SQL - alter table user_phones add constraint FK8a99k1bvo4hgvib6t1ui8riob foreign key (phones_id) references phone (id)
+2019-08-05 09:20:25.674 [main] DEBUG org.hibernate.SQL - alter table user_phones add constraint FK7cf4cc4dlmjvpucfxaqrj9lwl foreign key (User_id) references user (id)
+2019-08-05 09:20:25.723 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+2019-08-05 09:20:25.739 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 09:20:27.748 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 09:20:18 CST 2019]; root of context hierarchy
+2019-08-05 09:20:27.915 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/book/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.Book> com.example.demo.controller.BookController.bookList()
+2019-08-05 09:20:27.918 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.demo.controller.IndexController.index(java.security.Principal)
+2019-08-05 09:20:27.919 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/student/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.User> com.example.demo.controller.StudentController.userList()
+2019-08-05 09:20:27.927 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/find],methods=[POST]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUser(com.example.demo.entity.cloudTest.User)
+2019-08-05 09:20:27.927 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.userList()
+2019-08-05 09:20:27.927 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[POST]}" onto public java.lang.String com.example.demo.controller.UserController.saveInfo(com.example.demo.entity.cloudTest.User)
+2019-08-05 09:20:27.928 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/grantsAge],methods=[GET],params=[age]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUsersGrants(int)
+2019-08-05 09:20:27.932 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-05 09:20:27.933 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-05 09:20:28.006 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 09:20:28.007 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 09:20:28.098 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 09:20:28.715 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-08-05 09:20:28.875 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@511bfbb0, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d4d0a14, org.springframework.security.web.header.HeaderWriterFilter@582ca1e2, org.springframework.security.web.authentication.logout.LogoutFilter@6ba355e4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@180d918a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@8167f57, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46b2a11a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a80a896, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79ee779c, org.springframework.security.web.session.SessionManagementFilter@38093ffe, org.springframework.security.web.access.ExceptionTranslationFilter@4c91a008, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77881b7a]
+2019-08-05 09:20:28.906 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@320ba79f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ccc971e, org.springframework.security.web.header.HeaderWriterFilter@20518250, org.springframework.security.web.authentication.logout.LogoutFilter@3c20e9d6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@76e2a621, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28269c65, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c9d833, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@333a2df2, org.springframework.security.web.session.SessionManagementFilter@7836c79, org.springframework.security.web.access.ExceptionTranslationFilter@1f6d7e7c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@29dfc68f]
+2019-08-05 09:20:29.226 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 11.642 seconds (JVM running for 12.844)
+2019-08-05 09:20:29.381 [main] DEBUG org.hibernate.SQL - insert into user (name) values (?)
+2019-08-05 09:20:29.406 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [张三]
+2019-08-05 09:20:29.417 [main] DEBUG org.hibernate.SQL - insert into phone (name) values (?)
+2019-08-05 09:20:29.419 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [小米8]
+2019-08-05 09:20:29.422 [main] DEBUG org.hibernate.SQL - insert into phone (name) values (?)
+2019-08-05 09:20:29.422 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [小米9]
+2019-08-05 09:20:29.423 [main] DEBUG org.hibernate.SQL - insert into user (name) values (?)
+2019-08-05 09:20:29.423 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [李四]
+2019-08-05 09:20:29.445 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:20:29.447 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2019-08-05 09:20:29.447 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [1]
+2019-08-05 09:20:29.449 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:20:29.450 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2019-08-05 09:20:29.450 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [2]
+2019-08-05 09:20:29.450 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:20:29.451 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+2019-08-05 09:20:29.452 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [1]
+2019-08-05 09:20:29.452 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:20:29.453 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+2019-08-05 09:20:29.454 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [2]
+2019-08-05 09:20:29.472 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 09:20:18 CST 2019]; root of context hierarchy
+2019-08-05 09:20:29.478 [Thread-3] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method 'close' failed on bean with name 'testEntityManagers': java.lang.IllegalStateException: EntityManager is closed
+2019-08-05 09:20:29.481 [Thread-3] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 09:20:29.483 [Thread-3] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 09:39:47.125 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2019-08-05 09:39:47.132 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-05 09:39:47.132 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-08-05 09:39:47.287 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2019-08-05 09:39:47.297 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-05 09:39:47.320 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6973bf95, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ddc8ecb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@229d10bd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47542153, org.springframework.test.context.transaction.TransactionalTestExecutionListener@33afa13b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7a4ccb53, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@309e345f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@56a6d5a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@18ce0030, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4445629, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@45b9a632, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@25d250c6]
+2019-08-05 09:39:47.787 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-54HEKKB with PID 20844 (started by 94599 in C:\File\cloud_demo\config_demo)
+2019-08-05 09:39:47.788 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2019-08-05 09:39:47.854 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 09:39:47 CST 2019]; root of context hierarchy
+2019-08-05 09:39:48.481 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-08-05 09:39:49.605 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-08-05 09:39:50.198 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-08-05 09:39:50.200 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-08-05 09:39:50.200 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-08-05 09:39:50.492 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$adc6917b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 09:39:50.582 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$9ae966e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 09:39:50.587 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-08-05 09:39:51.843 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 09:39:51.872 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-08-05 09:39:52.005 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-08-05 09:39:52.009 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-05 09:39:52.011 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-08-05 09:39:52.170 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-08-05 09:39:52.361 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-05 09:39:53.553 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-08-05 09:39:54.117 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 09:39:54.156 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 09:39:54.157 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-08-05 09:39:54.167 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-05 09:39:54.334 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-08-05 09:39:54.983 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 09:39:56.919 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 09:39:47 CST 2019]; root of context hierarchy
+2019-08-05 09:39:57.047 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/book/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.Book> com.example.demo.controller.BookController.bookList()
+2019-08-05 09:39:57.050 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.demo.controller.IndexController.index(java.security.Principal)
+2019-08-05 09:39:57.051 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/student/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.User> com.example.demo.controller.StudentController.userList()
+2019-08-05 09:39:57.056 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/find],methods=[POST]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUser(com.example.demo.entity.cloudTest.User)
+2019-08-05 09:39:57.057 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.userList()
+2019-08-05 09:39:57.058 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[POST]}" onto public java.lang.String com.example.demo.controller.UserController.saveInfo(com.example.demo.entity.cloudTest.User)
+2019-08-05 09:39:57.060 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/grantsAge],methods=[GET],params=[age]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUsersGrants(int)
+2019-08-05 09:39:57.062 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-05 09:39:57.063 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-05 09:39:57.121 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 09:39:57.121 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 09:39:57.185 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 09:39:57.716 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-08-05 09:39:57.896 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62aee901, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f22fd5d, org.springframework.security.web.header.HeaderWriterFilter@64af5454, org.springframework.security.web.authentication.logout.LogoutFilter@2c4eae94, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34626d4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@618fb1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e7f29d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14eb96e9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1983a4e4, org.springframework.security.web.session.SessionManagementFilter@f6cde7e, org.springframework.security.web.access.ExceptionTranslationFilter@4c579b5b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5535e9]
+2019-08-05 09:39:57.929 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1041ebba, org.springframework.security.web.context.SecurityContextPersistenceFilter@6074d638, org.springframework.security.web.header.HeaderWriterFilter@7fc56d61, org.springframework.security.web.authentication.logout.LogoutFilter@6ba08a09, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@568c9ee1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@402feb85, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14d53884, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@507f7cd1, org.springframework.security.web.session.SessionManagementFilter@1382a7d8, org.springframework.security.web.access.ExceptionTranslationFilter@60e80279, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30bf881e]
+2019-08-05 09:39:58.185 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 10.747 seconds (JVM running for 11.935)
+2019-08-05 09:39:58.308 [main] DEBUG org.hibernate.SQL - insert into user (name) values (?)
+2019-08-05 09:39:58.325 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [张三]
+2019-08-05 09:39:58.332 [main] DEBUG org.hibernate.SQL - insert into phone (name) values (?)
+2019-08-05 09:39:58.332 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [小米8]
+2019-08-05 09:39:58.334 [main] DEBUG org.hibernate.SQL - insert into phone (name) values (?)
+2019-08-05 09:39:58.334 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [小米9]
+2019-08-05 09:39:58.335 [main] DEBUG org.hibernate.SQL - insert into user (name) values (?)
+2019-08-05 09:39:58.336 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [李四]
+2019-08-05 09:39:58.351 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:39:58.352 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2019-08-05 09:39:58.353 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [1]
+2019-08-05 09:39:58.353 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:39:58.354 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2019-08-05 09:39:58.354 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [2]
+2019-08-05 09:39:58.355 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:39:58.356 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+2019-08-05 09:39:58.356 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [1]
+2019-08-05 09:39:58.357 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 09:39:58.358 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [2]
+2019-08-05 09:39:58.358 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [2]
+2019-08-05 09:39:58.375 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 09:39:47 CST 2019]; root of context hierarchy
+2019-08-05 09:39:58.380 [Thread-3] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method 'close' failed on bean with name 'testEntityManagers': java.lang.IllegalStateException: EntityManager is closed
+2019-08-05 09:39:58.382 [Thread-3] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 09:39:58.383 [Thread-3] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 10:01:55.909 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2019-08-05 10:01:55.918 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-05 10:01:55.919 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-08-05 10:01:56.058 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2019-08-05 10:01:56.066 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-05 10:01:56.089 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6973bf95, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ddc8ecb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@229d10bd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@47542153, org.springframework.test.context.transaction.TransactionalTestExecutionListener@33afa13b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7a4ccb53, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@309e345f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@56a6d5a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@18ce0030, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4445629, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@45b9a632, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@25d250c6]
+2019-08-05 10:01:56.566 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-54HEKKB with PID 13308 (started by 94599 in C:\File\cloud_demo\config_demo)
+2019-08-05 10:01:56.567 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2019-08-05 10:01:56.620 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 10:01:56 CST 2019]; root of context hierarchy
+2019-08-05 10:01:57.317 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-08-05 10:01:58.615 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-08-05 10:01:59.179 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-08-05 10:01:59.181 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-08-05 10:01:59.182 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-08-05 10:01:59.488 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$71bdb769] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 10:01:59.590 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$5ee08cd1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-05 10:01:59.599 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-08-05 10:02:00.659 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 10:02:00.686 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-08-05 10:02:00.792 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-08-05 10:02:00.795 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-05 10:02:00.797 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-08-05 10:02:00.945 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-08-05 10:02:01.169 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-05 10:02:02.366 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-08-05 10:02:03.019 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-05 10:02:03.060 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 10:02:03.061 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-08-05 10:02:03.082 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-05 10:02:03.294 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-08-05 10:02:03.373 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl - HHH000262: Table not found: employee
+2019-08-05 10:02:03.374 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl - HHH000262: Table not found: employee
+2019-08-05 10:02:04.039 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 10:02:06.137 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 10:01:56 CST 2019]; root of context hierarchy
+2019-08-05 10:02:06.269 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/book/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.Book> com.example.demo.controller.BookController.bookList()
+2019-08-05 10:02:06.271 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.demo.controller.IndexController.index(java.security.Principal)
+2019-08-05 10:02:06.272 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/student/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.User> com.example.demo.controller.StudentController.userList()
+2019-08-05 10:02:06.278 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/grantsAge],methods=[GET],params=[age]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUsersGrants(int)
+2019-08-05 10:02:06.279 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[POST]}" onto public java.lang.String com.example.demo.controller.UserController.saveInfo(com.example.demo.entity.cloudTest.User)
+2019-08-05 10:02:06.280 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.userList()
+2019-08-05 10:02:06.281 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/find],methods=[POST]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUser(com.example.demo.entity.cloudTest.User)
+2019-08-05 10:02:06.284 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-05 10:02:06.285 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-05 10:02:06.344 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 10:02:06.345 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 10:02:06.441 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-05 10:02:07.057 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-08-05 10:02:07.248 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4da9da6c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5eba9e41, org.springframework.security.web.header.HeaderWriterFilter@2dbb8da0, org.springframework.security.web.authentication.logout.LogoutFilter@56e78538, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1f4cb17b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3c9971af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@564d3940, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39403943, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66048c9e, org.springframework.security.web.session.SessionManagementFilter@17fb5184, org.springframework.security.web.access.ExceptionTranslationFilter@306bf4c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e6f5842]
+2019-08-05 10:02:07.281 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60484429, org.springframework.security.web.context.SecurityContextPersistenceFilter@5718e77c, org.springframework.security.web.header.HeaderWriterFilter@780dbed7, org.springframework.security.web.authentication.logout.LogoutFilter@2bda7a5b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47374fa5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d667b59, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28888124, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42c55978, org.springframework.security.web.session.SessionManagementFilter@31859960, org.springframework.security.web.access.ExceptionTranslationFilter@7f02b2d4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3dfa2f64]
+2019-08-05 10:02:07.547 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 11.334 seconds (JVM running for 12.493)
+2019-08-05 10:02:07.711 [main] DEBUG org.hibernate.SQL - insert into user (name) values (?)
+2019-08-05 10:02:07.733 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [张三]
+2019-08-05 10:02:07.746 [main] DEBUG org.hibernate.SQL - insert into phone (name) values (?)
+2019-08-05 10:02:07.747 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [小米8]
+2019-08-05 10:02:07.750 [main] DEBUG org.hibernate.SQL - insert into phone (name) values (?)
+2019-08-05 10:02:07.750 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [小米9]
+2019-08-05 10:02:07.752 [main] DEBUG org.hibernate.SQL - insert into user (name) values (?)
+2019-08-05 10:02:07.752 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [李四]
+2019-08-05 10:02:07.776 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 10:02:07.777 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [3]
+2019-08-05 10:02:07.777 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [3]
+2019-08-05 10:02:07.778 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 10:02:07.779 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [3]
+2019-08-05 10:02:07.779 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [4]
+2019-08-05 10:02:07.780 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 10:02:07.781 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [4]
+2019-08-05 10:02:07.781 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [3]
+2019-08-05 10:02:07.782 [main] DEBUG org.hibernate.SQL - insert into user_phones (User_id, phones_id) values (?, ?)
+2019-08-05 10:02:07.782 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [4]
+2019-08-05 10:02:07.782 [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [BIGINT] - [4]
+2019-08-05 10:02:07.800 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@169e6180: startup date [Mon Aug 05 10:01:56 CST 2019]; root of context hierarchy
+2019-08-05 10:02:07.804 [Thread-3] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method 'close' failed on bean with name 'testEntityManagers': java.lang.IllegalStateException: EntityManager is closed
+2019-08-05 10:02:07.809 [Thread-3] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-05 10:02:07.810 [Thread-3] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
