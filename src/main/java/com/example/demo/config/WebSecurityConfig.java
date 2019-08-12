@@ -1,5 +1,6 @@
 package com.example.demo.config;
 
+import com.example.demo.lntercptor.TokenInterceptor;
 import com.example.demo.sercurity.PasswordEncoderImpl;
 import com.example.demo.sercurity.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,6 +9,8 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
+
 @Configuration
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
@@ -15,7 +18,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     private UserDetailsImpl userDetails;
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-       http.csrf().disable()
+                http
+                .csrf().disable()
+//                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+//                .and()
                 .authorizeRequests()
                 .anyRequest().authenticated()
                 .and()
