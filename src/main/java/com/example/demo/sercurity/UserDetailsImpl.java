@@ -1,5 +1,7 @@
 package com.example.demo.sercurity;
 
+import com.example.demo.controller.TokenController;
+import com.example.demo.dto.TokenResult;
 import com.example.demo.entity.cloudTest.RoleAndUser;
 import com.example.demo.entity.cloudTest.User;
 import com.example.demo.repository.cloudTest.RoleAndUserRepository;
@@ -14,6 +16,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -27,9 +32,12 @@ public class UserDetailsImpl implements UserDetailsService {
     private RoleAndUserRepository roleAndUserRepository;
     @Autowired
     private UserRepository userRepository;
+    @Autowired
+    private TokenController tokenController;
 
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
+        System.out.println("用户姓名：：："+s);
         User user = userRepository.findByUsername(s);
         logger.info("查找用户");
         if (user==null){
@@ -95,6 +103,8 @@ public class UserDetailsImpl implements UserDetailsService {
                 return true;
             }
         };
+
+
         return userDetails;
     }
 }
