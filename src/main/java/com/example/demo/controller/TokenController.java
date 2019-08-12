@@ -1,104 +1,85 @@
-//package com.example.demo.controller;
-//
-//import com.example.demo.dto.TokenResult;
-//import com.example.demo.entity.cloudTest.AppToken;
-//import com.example.demo.entity.cloudTest.AppUserInfo;
-//import com.example.demo.repository.cloudTest.AppTokenRepository;
-//import com.example.demo.repository.cloudTest.AppUserInfoRepository;
-//import io.jsonwebtoken.Jwts;
-//import io.jsonwebtoken.SignatureAlgorithm;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.data.jpa.domain.Specification;
-//import org.springframework.web.bind.annotation.RequestMapping;
-//import org.springframework.web.bind.annotation.RequestMethod;
-//import org.springframework.web.bind.annotation.RequestParam;
-//import org.springframework.web.bind.annotation.RestController;
-//
-//import javax.persistence.criteria.CriteriaBuilder;
-//import javax.persistence.criteria.CriteriaQuery;
-//import javax.persistence.criteria.Predicate;
-//import javax.persistence.criteria.Root;
-//import java.util.Date;
-//import java.util.concurrent.TimeUnit;
-//
-//@RestController
-//@RequestMapping("/jwt")
-//public class TokenController {
-//    @Autowired
-//    private AppTokenRepository appTokenRepository;
-//
-//    @Autowired
-//    private AppUserInfoRepository appUserInfoRepository;
-//
-//    @RequestMapping(value = "/token",method = {RequestMethod.GET,RequestMethod.POST})
-//    public TokenResult tokenResult(@RequestParam String appId,@RequestParam String secret){
-//        TokenResult tokenResult = new TokenResult();
-//        if (appId==null && appId.trim()==""){
-//            tokenResult.setFlag(false);
-//            tokenResult.setMsg("AppId 不存在");
-//        }else if (secret==null && secret.trim()==""){
-//            tokenResult.setFlag(false);
-//            tokenResult.setMsg("secret 不存在");
-//        }else {
-//            AppUserInfo appUserInfo = appUserInfoRepository.findOne(new Specification<AppUserInfo>() {
-//                @Override
-//                public Predicate toPredicate(Root<AppUserInfo> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
-//                    criteriaQuery.where(criteriaBuilder.equal(root.get("appId"),appId));
-//                    return null;
-//                }
-//            });
-//            if (appUserInfo==null){
-//                tokenResult.setFlag(false);
-//                tokenResult.setMsg("AppId"+appId+" 不存在");
-//            }else if (!new String(appUserInfo.getSecret()).equals(secret.replace("","+"))){
-//                tokenResult.setFlag(false);
-//                tokenResult.setMsg("secret"+secret+" 无效");
-//            }else{
-//              AppToken appToken = appTokenRepository.findOne(new Specification<AppToken>(){
-//                  @Override
-//                  public Predicate toPredicate(Root<AppToken> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
-//                      criteriaQuery.where(criteriaBuilder.equal(root.get("appId"),appId));
-//                      return null;
-//                  }
-//              });
-//                String tokenUrl = null;
-//               if (appToken==null){
-//                   tokenUrl = createToken(appId);
-//                   appToken = new AppToken();
-//                   appToken.setAppId(appId);
-//                   appToken.setToken(tokenUrl);
-//                   appToken.setBuildTime(String.valueOf(System.currentTimeMillis()));
-//                   appTokenRepository.save(appToken);
-//               }else{
-//                  Long dbBuildTime = Long.parseLong(appToken.getBuildTime());
-//                  Long cruuentTime = System.currentTimeMillis();
-//                  Long second = TimeUnit.MILLISECONDS.toSeconds(cruuentTime-dbBuildTime);
-//                  if (second>0 && second<7200){
-//                      tokenUrl = new String(appToken.getToken());
-//                  }else{
-//                      tokenUrl = createToken(appId);
-//                      appToken = new AppToken();
-//                      appToken.setAppId(appId);
-//                      appToken.setToken(tokenUrl);
-//                      appToken.setBuildTime(String.valueOf(System.currentTimeMillis()));
-//                      appTokenRepository.save(appToken);
-//                  }
-//               }
-//                tokenResult.setToken(tokenUrl);
-//            }
-//        }
-//        return tokenResult;
-//    }
-//
-//    private String createToken(String appId){
-//        Date nowDate = new Date(System.currentTimeMillis());
-//        Date expirenow = new Date(nowDate.getTime()+7200);
-//        return Jwts.builder()
-//                .setSubject(appId)
-//                .setIssuedAt(nowDate)
-//                .setIssuer("Jwt Test")
-//                .setExpiration(expirenow)
-//                .signWith(SignatureAlgorithm.ES256,"TestV1.0")
-//                .compact();
-//    }
-//}
+package com.example.demo.controller;
+
+import com.example.demo.dto.TokenResult;
+import com.example.demo.entity.cloudTest.AppToken;
+import com.example.demo.entity.cloudTest.User;
+import com.example.demo.repository.cloudTest.AppTokenRepository;
+import com.example.demo.repository.cloudTest.UserRepository;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
+
+@RestController
+@RequestMapping("/jwt")
+public class TokenController {
+    @Autowired
+    private AppTokenRepository appTokenRepository;
+
+    @Autowired
+    private UserRepository userRepository;
+
+    @GetMapping("/token")
+    public TokenResult token(@RequestParam(name = "appId") String appId){
+        TokenResult tokenResult = new TokenResult();
+        if (appId==null || appId.trim().equals("")){
+            tokenResult.setFlag(false);
+            tokenResult.setMsg("token 不存在");
+        }else {
+           User user = userRepository.findByUsername(appId);
+            if (user == null){
+                tokenResult.setFlag(false);
+                tokenResult.setMsg("appId 用户 不存在");
+            }else {
+               AppToken appToken = appTokenRepository.findByAppId(user.getId()+"");
+               String token = null;
+               if (appToken == null){
+                   // 创建token 写入数据库
+                 token = CreateToken(user.getId()+"");
+                 AppToken newAppToken =  new AppToken();
+                 newAppToken.setAppId(user.getId()+"");
+                 newAppToken.setToken(token);
+                 newAppToken.setBuildTime(String.valueOf(System.currentTimeMillis()));
+                 appTokenRepository.save(newAppToken);
+               }else {
+                   //判断数据库中的token是否过期。没有的话 就返回数据库中的token即可
+                   //过期重新生成token
+                   Long tokenTime = Long.valueOf(appToken.getBuildTime());
+                   Long cruentTime = System.currentTimeMillis();
+                   Long second = TimeUnit.MILLISECONDS.toSeconds(cruentTime-tokenTime);
+                   if (second>0 && second<= 72000000){
+                       token = appToken.getToken();
+                   }else {
+                       token = CreateToken(user.getId()+"");
+                       appToken.setToken(token);
+                       appToken.setBuildTime(String.valueOf(System.currentTimeMillis()));
+                       appTokenRepository.save(appToken);
+                   }
+               }
+                tokenResult.setToken(token);
+            }
+        }
+        return tokenResult;
+    }
+
+    /**
+     * 生成token
+     * 解释每个方法的参数
+     * @param appId
+     * @return
+     */
+    private String CreateToken(String appId){
+        Date now = new Date(System.currentTimeMillis());
+        Date expiration = new Date(now.getTime()+ 72000000);
+        return Jwts
+                .builder()
+                .setSubject(appId)          //面向用户AppId
+                .setIssuedAt(now)
+                .setIssuer("Online Yuth Builder")   // 该JWT的签发者
+                .setExpiration(expiration)
+                .signWith(SignatureAlgorithm.HS256,"Cindy V1.0")       //签名算法  两个参数分别是签名算法和自定义的签名Key（盐）
+                .compact();
+    }
+}
