@@ -11,8 +11,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Aspect
@@ -27,7 +25,7 @@ public class ExceptionAop {
     }
 
     @AfterThrowing(value = "service(operation)",throwing = "e")
-    public void doAfterThrowing(Operation operation,Throwable e){
+    public void doAfterThrowing(Operation operation,Throwable e) {
         ErrorLog errorLog = new ErrorLog();
         Date nowDate = new Date(System.currentTimeMillis());
         errorLog.setHappendTime(nowDate);

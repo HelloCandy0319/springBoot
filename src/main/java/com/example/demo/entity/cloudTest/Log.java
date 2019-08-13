@@ -3,6 +3,7 @@ package com.example.demo.entity.cloudTest;
 import lombok.Data;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 @Entity
@@ -26,5 +27,9 @@ public class Log {
 
     @Column(name = "return_time")
     private Date returnTime;
+
+    @NotNull
+    @Column(name = "user_id")
+    private Long userId;
 
 }

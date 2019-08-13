@@ -16,11 +16,7 @@ public class IndexController {
     @GetMapping("/")
     public String index(Principal principal, HttpServletResponse response){
 //        UserDetails userDetails =(UserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-//       TokenResult tokenResult =  tokenController.token(principal.getName());
-//        if (tokenResult!=null){
-//            Cookie cookie = new Cookie("token",tokenResult.getToken());
-//            response.addCookie(cookie);
-//        }
+
         return principal.getName()+"Hello,Index";
     }
 }

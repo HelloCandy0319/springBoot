@@ -28,7 +28,6 @@ public class TokenInterceptor implements HandlerInterceptor {
         String url = httpServletRequest.getRequestURI();
         if (httpServletRequest.getRequestURI().equals("/token")
                 || httpServletRequest.getRequestURI().equals("/login")
-                || httpServletRequest.getRequestURI().equals("/")
                 || httpServletRequest.getRequestURI().equals("/error")
                 || RequestMethod.OPTIONS.toString().equals(httpServletRequest.getMethod())){
             return true;

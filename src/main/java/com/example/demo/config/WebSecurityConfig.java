@@ -1,6 +1,7 @@
 package com.example.demo.config;
 
 import com.example.demo.lntercptor.TokenInterceptor;
+import com.example.demo.sercurity.LoginSuccessHandler;
 import com.example.demo.sercurity.PasswordEncoderImpl;
 import com.example.demo.sercurity.UserDetailsImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +28,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .formLogin()
                 .permitAll()
+                .successHandler(new LoginSuccessHandler())
                 .and()
                 .logout()
                 .permitAll();

@@ -3,6 +3,7 @@ package com.example.demo.lntercptor;
 import com.alibaba.fastjson.JSON;
 import com.example.demo.entity.cloudTest.Log;
 import com.example.demo.repository.cloudTest.LogRepository;
+import com.example.demo.validator.field.UserIdInfo;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -35,6 +36,7 @@ public class LoggerIntercptor implements HandlerInterceptor {
 
     @Transactional
     @Override
+    @UserIdInfo(userId = )
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         Log log = (Log) request.getAttribute("log");
         log.setReturnTime(new Date());
