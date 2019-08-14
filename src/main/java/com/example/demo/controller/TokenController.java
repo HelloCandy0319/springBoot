@@ -77,9 +77,9 @@ public class TokenController {
                 .builder()
                 .setSubject(appId)          //面向用户AppId
                 .setIssuedAt(now)
-                .setIssuer(appName)   // 该JWT的签发者
+                .setIssuer("Cindy")   // 该JWT的签发者
                 .setExpiration(expiration)
-                .signWith(SignatureAlgorithm.HS256,"Cindy V1.0")       //签名算法  两个参数分别是签名算法和自定义的签名Key（盐）
+                .signWith(SignatureAlgorithm.HS256,"TokenTest"+appId)       //签名算法  两个参数分别是签名算法和自定义的签名Key（盐）
                 .compact();
     }
 }

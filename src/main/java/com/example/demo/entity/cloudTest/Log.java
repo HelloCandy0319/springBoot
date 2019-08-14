@@ -28,7 +28,6 @@ public class Log {
     @Column(name = "return_time")
     private Date returnTime;
 
-    @NotNull
     @Column(name = "user_id")
     private Long userId;
 
