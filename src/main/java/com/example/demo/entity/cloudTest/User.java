@@ -40,4 +40,13 @@ public class User implements Serializable {
                 '}';
     }
 
+    public User(String username, String password, Integer age, String flag) {
+        this.username = username;
+        this.password = password;
+        this.age = age;
+        this.flag = flag;
+    }
+
+    public User() {
+    }
 }

@@ -6,6 +6,7 @@ import com.example.demo.entity.test.Article;
 import com.example.demo.entity.test.Book;
 import com.example.demo.entity.test.Library;
 import com.example.demo.entity.test.Student;
+import com.example.demo.service.RedisService;
 import com.example.demo.service.StudentService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -31,6 +32,21 @@ public class DemoApplicationTests {
     private Person person1;
     @Autowired
     private StudentService studentService;
+
+    @Autowired
+    RedisService redisService;
+
+    @Test
+    public void testRedisSave(){
+        redisService.RedisSave();
+    }
+
+    @Test
+    public void testRedisGet(){
+        System.out.println("结果：：：");
+        redisService.RedisGet();
+    }
+
     @Test
     public void contextLoads() {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(PersonConfig.class);
