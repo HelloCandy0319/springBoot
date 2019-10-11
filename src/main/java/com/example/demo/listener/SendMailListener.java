@@ -7,6 +7,9 @@ import org.springframework.context.event.SmartApplicationListener;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
+/**
+ * 发送邮件的监听器
+ */
 @Component
 public class SendMailListener implements SmartApplicationListener {
     /**
@@ -31,6 +34,12 @@ public class SendMailListener implements SmartApplicationListener {
         return aClass == UserService.class;
     }
 
+    /**
+     * 异步操作
+     * 注册用户 发送邮件
+     * 监听的是注册用户事件  RegisterUserEvent
+     * @param applicationEvent
+     */
     @Async
     @Override
     public void onApplicationEvent(ApplicationEvent applicationEvent) {

@@ -1592,3 +1592,316 @@ io.jsonwebtoken.ExpiredJwtException: JWT expired at 2019-08-12T17:58:14Z. Curren
 2019-08-12 18:08:50.960 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
 2019-08-12 18:08:50.990 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8086 (http)
 2019-08-12 18:08:51.000 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 12.477 seconds (JVM running for 16.696)
+2019-08-12 17:38:41.893 [main] INFO  com.example.demo.DemoApplication - 开始启动.................
+2019-08-12 17:38:43.697 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-54HEKKB with PID 12104 (C:\File\gitHub\springBoot+druid\target\classes started by 94599 in C:\File\gitHub\springBoot+druid)
+2019-08-12 17:38:43.697 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-08-12 17:38:43.978 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@363ee3a2: startup date [Mon Aug 12 17:38:43 CST 2019]; root of context hierarchy
+2019-08-12 17:38:45.072 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-08-12 17:38:48.594 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-08-12 17:38:49.203 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo.entity.mybaites]' package. Please check your configuration.
+2019-08-12 17:38:49.203 [main] WARN  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisEntityManager' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-08-12 17:38:49.281 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-08-12 17:38:49.281 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-08-12 17:38:49.281 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-08-12 17:38:49.469 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$b1a74d1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 17:38:49.531 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$9eca2284] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 17:38:49.531 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-08-12 17:38:50.187 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8086 (http)
+2019-08-12 17:38:50.187 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-08-12 17:38:50.187 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-08-12 17:38:50.328 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-12 17:38:50.328 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6350 ms
+2019-08-12 17:38:50.640 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-12 17:38:50.640 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-12 17:38:50.640 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-08-12 17:38:50.640 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-12 17:38:50.640 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-08-12 17:38:50.640 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-08-12 17:38:50.656 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-08-12 17:38:50.656 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-08-12 17:38:51.499 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-12 17:38:51.843 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-12 17:38:51.859 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-08-12 17:38:51.937 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-08-12 17:38:51.937 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-12 17:38:51.937 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-08-12 17:38:51.984 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-08-12 17:38:52.233 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-08-12 17:38:52.249 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-12 17:38:52.624 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-08-12 17:38:53.396 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-12 17:38:53.428 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-12 17:38:53.428 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-08-12 17:38:53.490 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-12 17:38:53.615 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-08-12 17:38:54.631 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-12 17:38:56.436 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@363ee3a2: startup date [Mon Aug 12 17:38:43 CST 2019]; root of context hierarchy
+2019-08-12 17:38:56.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/book/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.Book> com.example.demo.controller.BookController.bookList()
+2019-08-12 17:38:56.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/employee],methods=[GET]}" onto public java.util.List<com.example.demo.dto.ParentDeptDto> com.example.demo.controller.DepartmentController.deptToEmp()
+2019-08-12 17:38:56.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[POST]}" onto public void com.example.demo.controller.DepartmentController.saveDept(com.example.demo.entity.mybaites.Department)
+2019-08-12 17:38:56.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Department> com.example.demo.controller.DepartmentController.departmentList()
+2019-08-12 17:38:56.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[POST]}" onto public void com.example.demo.controller.EmployeeController.save(com.example.demo.entity.mybaites.Employee)
+2019-08-12 17:38:56.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Employee> com.example.demo.controller.EmployeeController.findAll()
+2019-08-12 17:38:56.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee/empInfo],methods=[GET]}" onto public com.example.demo.dto.EmployeeToDept com.example.demo.controller.EmployeeController.employeeToDept(java.lang.Long)
+2019-08-12 17:38:56.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.demo.controller.IndexController.index(java.security.Principal,javax.servlet.http.HttpServletResponse)
+2019-08-12 17:38:56.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/student/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.User> com.example.demo.controller.StudentController.userList()
+2019-08-12 17:38:56.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jwt/token],methods=[GET]}" onto public com.example.demo.dto.TokenResult com.example.demo.controller.TokenController.token(java.lang.String)
+2019-08-12 17:38:56.561 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.userList()
+2019-08-12 17:38:56.561 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[POST]}" onto public java.lang.String com.example.demo.controller.UserController.saveInfo(com.example.demo.entity.cloudTest.User)
+2019-08-12 17:38:56.561 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/grantsAge],methods=[GET],params=[age]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUsersGrants(int)
+2019-08-12 17:38:56.561 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/find],methods=[POST]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUser(com.example.demo.entity.cloudTest.User)
+2019-08-12 17:38:56.561 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-12 17:38:56.561 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-12 17:38:56.623 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-12 17:38:56.623 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-12 17:38:56.655 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in springExceptionHandle
+2019-08-12 17:38:56.686 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-12 17:38:57.154 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-08-12 17:38:57.154 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/druid/**'], []
+2019-08-12 17:38:57.295 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35198da3, org.springframework.security.web.context.SecurityContextPersistenceFilter@7505dcab, org.springframework.security.web.header.HeaderWriterFilter@44d6f9cf, org.springframework.security.web.authentication.logout.LogoutFilter@1df2e767, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3df681cc, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@220e1b7b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d4c6e32, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6632eb19, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f08c343, org.springframework.security.web.session.SessionManagementFilter@feab3ae, org.springframework.security.web.access.ExceptionTranslationFilter@3a83cfbc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@121f9c52]
+2019-08-12 17:38:57.311 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2178d296, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b3c11ce, org.springframework.security.web.header.HeaderWriterFilter@4daead88, org.springframework.security.web.authentication.logout.LogoutFilter@6bbb3280, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7dda5b25, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46573cfe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ead0b51, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58c80957, org.springframework.security.web.session.SessionManagementFilter@43aa767, org.springframework.security.web.access.ExceptionTranslationFilter@ab2e887, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a7bb083]
+2019-08-12 17:38:57.545 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-08-12 17:38:57.545 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'cloudDateSource' has been autodetected for JMX exposure
+2019-08-12 17:38:57.545 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'testDateSource' has been autodetected for JMX exposure
+2019-08-12 17:38:57.545 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'mybatisDataSource' has been autodetected for JMX exposure
+2019-08-12 17:38:57.545 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-08-12 17:38:57.545 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'mybatisDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mybatisDataSource,type=DruidDataSource]
+2019-08-12 17:38:57.561 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'testDateSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=testDateSource,type=DruidDataSource]
+2019-08-12 17:38:57.561 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'cloudDateSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=cloudDateSource,type=DruidDataSource]
+2019-08-12 17:38:57.561 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-08-12 17:38:57.576 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2019-08-12 17:38:57.576 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2019-08-12 17:38:57.592 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-12 17:38:57.607 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8086 (http)
+2019-08-12 17:38:57.607 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 14.964 seconds (JVM running for 20.879)
+2019-08-12 17:39:07.631 [http-nio-8086-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-08-12 17:39:07.632 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-08-12 17:39:07.666 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2019-08-12 17:39:12.605 [http-nio-8086-exec-3] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-12 17:39:12.705 [http-nio-8086-exec-3] DEBUG org.hibernate.SQL - select user0_.id as id1_6_, user0_.age as age2_6_, user0_.password as password3_6_, user0_.username as username4_6_ from user user0_ where user0_.username=?
+2019-08-12 17:39:12.811 [http-nio-8086-exec-3] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [admin]
+2019-08-12 17:39:12.839 [http-nio-8086-exec-3] INFO  com.example.demo.sercurity.UserDetailsImpl - 查找用户
+2019-08-12 17:39:12.840 [http-nio-8086-exec-3] INFO  com.example.demo.sercurity.UserDetailsImpl - 获取用户权限
+2019-08-12 17:39:12.843 [http-nio-8086-exec-3] DEBUG org.hibernate.SQL - select roleanduse0_.id as id1_5_, roleanduse0_.role_id as role_id2_5_, roleanduse0_.user_id as user_id3_5_ from role_user roleanduse0_ where roleanduse0_.user_id=?
+2019-08-12 17:39:12.845 [http-nio-8086-exec-3] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2019-08-12 17:43:54.563 [main] INFO  com.example.demo.DemoApplication - 开始启动.................
+2019-08-12 17:43:54.922 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-54HEKKB with PID 28876 (C:\File\gitHub\springBoot+druid\target\classes started by 94599 in C:\File\gitHub\springBoot+druid)
+2019-08-12 17:43:54.922 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-08-12 17:43:54.954 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cc558c6: startup date [Mon Aug 12 17:43:54 CST 2019]; root of context hierarchy
+2019-08-12 17:43:55.079 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-08-12 17:43:55.797 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-08-12 17:43:56.188 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo.entity.mybaites]' package. Please check your configuration.
+2019-08-12 17:43:56.188 [main] WARN  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisEntityManager' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-08-12 17:43:56.266 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-08-12 17:43:56.266 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-08-12 17:43:56.266 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-08-12 17:43:56.485 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$5d83a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 17:43:56.547 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$ed805909] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 17:43:56.547 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-08-12 17:43:57.141 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8086 (http)
+2019-08-12 17:43:57.156 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-08-12 17:43:57.156 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-08-12 17:43:57.297 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-12 17:43:57.297 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2343 ms
+2019-08-12 17:43:57.641 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-12 17:43:57.641 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-12 17:43:57.641 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-08-12 17:43:57.641 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-12 17:43:57.641 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-08-12 17:43:57.641 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-08-12 17:43:57.641 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-08-12 17:43:57.656 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-08-12 17:43:58.571 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-12 17:43:58.836 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-12 17:43:58.836 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-08-12 17:43:58.899 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-08-12 17:43:58.914 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-12 17:43:58.914 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-08-12 17:43:58.961 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-08-12 17:43:59.118 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-08-12 17:43:59.133 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-12 17:43:59.539 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-08-12 17:44:00.195 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-12 17:44:00.242 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-12 17:44:00.242 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-08-12 17:44:00.305 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-12 17:44:00.445 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-08-12 17:44:01.351 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-12 17:44:03.349 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cc558c6: startup date [Mon Aug 12 17:43:54 CST 2019]; root of context hierarchy
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/book/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.Book> com.example.demo.controller.BookController.bookList()
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[POST]}" onto public void com.example.demo.controller.DepartmentController.saveDept(com.example.demo.entity.mybaites.Department)
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Department> com.example.demo.controller.DepartmentController.departmentList()
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/employee],methods=[GET]}" onto public java.util.List<com.example.demo.dto.ParentDeptDto> com.example.demo.controller.DepartmentController.deptToEmp()
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[POST]}" onto public void com.example.demo.controller.EmployeeController.save(com.example.demo.entity.mybaites.Employee)
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Employee> com.example.demo.controller.EmployeeController.findAll()
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee/empInfo],methods=[GET]}" onto public com.example.demo.dto.EmployeeToDept com.example.demo.controller.EmployeeController.employeeToDept(java.lang.Long)
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.demo.controller.IndexController.index(java.security.Principal,javax.servlet.http.HttpServletResponse)
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/student/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.User> com.example.demo.controller.StudentController.userList()
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jwt/token],methods=[GET]}" onto public com.example.demo.dto.TokenResult com.example.demo.controller.TokenController.token(java.lang.String)
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.userList()
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/find],methods=[POST]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUser(com.example.demo.entity.cloudTest.User)
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/grantsAge],methods=[GET],params=[age]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUsersGrants(int)
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[POST]}" onto public java.lang.String com.example.demo.controller.UserController.saveInfo(com.example.demo.entity.cloudTest.User)
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-12 17:44:03.468 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-12 17:44:03.593 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-12 17:44:03.593 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-12 17:44:03.625 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in springExceptionHandle
+2019-08-12 17:44:03.672 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-12 17:44:04.156 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-08-12 17:44:04.156 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/druid/**'], []
+2019-08-12 17:44:04.312 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64f34c91, org.springframework.security.web.context.SecurityContextPersistenceFilter@28f5a003, org.springframework.security.web.header.HeaderWriterFilter@2f1d2384, org.springframework.security.web.authentication.logout.LogoutFilter@6b862f17, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@109a462e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3a4e6da6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5aef36a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4676fcd9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@158f0af4, org.springframework.security.web.session.SessionManagementFilter@5a4833ab, org.springframework.security.web.access.ExceptionTranslationFilter@435848de, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6bafe3b0]
+2019-08-12 17:44:04.328 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15d2c2ca, org.springframework.security.web.context.SecurityContextPersistenceFilter@67cc5a38, org.springframework.security.web.header.HeaderWriterFilter@472d7f34, org.springframework.security.web.authentication.logout.LogoutFilter@747216b6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@358bbbe2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23b62cc3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f4e235e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@346d8002, org.springframework.security.web.session.SessionManagementFilter@2da7ef3e, org.springframework.security.web.access.ExceptionTranslationFilter@79864d6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@762e3836]
+2019-08-12 17:44:04.687 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-08-12 17:44:04.703 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'cloudDateSource' has been autodetected for JMX exposure
+2019-08-12 17:44:04.703 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'testDateSource' has been autodetected for JMX exposure
+2019-08-12 17:44:04.703 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'mybatisDataSource' has been autodetected for JMX exposure
+2019-08-12 17:44:04.703 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-08-12 17:44:04.703 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'mybatisDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mybatisDataSource,type=DruidDataSource]
+2019-08-12 17:44:04.703 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'testDateSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=testDateSource,type=DruidDataSource]
+2019-08-12 17:44:04.703 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'cloudDateSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=cloudDateSource,type=DruidDataSource]
+2019-08-12 17:44:04.703 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-08-12 17:44:04.718 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2019-08-12 17:44:04.718 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2019-08-12 17:44:04.734 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-12 17:44:04.749 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8086 (http)
+2019-08-12 17:44:04.749 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 10.077 seconds (JVM running for 11.61)
+2019-08-12 17:44:36.689 [http-nio-8086-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-08-12 17:44:36.689 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-08-12 17:44:36.724 [http-nio-8086-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+2019-08-12 17:44:42.528 [http-nio-8086-exec-3] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-12 17:44:42.630 [http-nio-8086-exec-3] DEBUG org.hibernate.SQL - select user0_.id as id1_6_, user0_.age as age2_6_, user0_.password as password3_6_, user0_.username as username4_6_ from user user0_ where user0_.username=?
+2019-08-12 17:44:42.731 [http-nio-8086-exec-3] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [admin]
+2019-08-12 17:44:42.912 [http-nio-8086-exec-3] INFO  com.example.demo.sercurity.UserDetailsImpl - 查找用户
+2019-08-12 17:44:42.915 [http-nio-8086-exec-3] INFO  com.example.demo.sercurity.UserDetailsImpl - 获取用户权限
+2019-08-12 17:44:42.920 [http-nio-8086-exec-3] DEBUG org.hibernate.SQL - select roleanduse0_.id as id1_5_, roleanduse0_.role_id as role_id2_5_, roleanduse0_.user_id as user_id3_5_ from role_user roleanduse0_ where roleanduse0_.user_id=?
+2019-08-12 17:44:42.922 [http-nio-8086-exec-3] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2019-08-12 17:45:26.572 [main] INFO  com.example.demo.DemoApplication - 开始启动.................
+2019-08-12 17:45:26.994 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-54HEKKB with PID 16128 (C:\File\gitHub\springBoot+druid\target\classes started by 94599 in C:\File\gitHub\springBoot+druid)
+2019-08-12 17:45:26.994 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2019-08-12 17:45:27.025 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cc558c6: startup date [Mon Aug 12 17:45:27 CST 2019]; root of context hierarchy
+2019-08-12 17:45:27.150 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-08-12 17:45:27.869 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-08-12 17:45:28.222 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo.entity.mybaites]' package. Please check your configuration.
+2019-08-12 17:45:28.222 [main] WARN  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisEntityManager' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-08-12 17:45:28.284 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-08-12 17:45:28.284 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-08-12 17:45:28.284 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-08-12 17:45:28.503 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$b6889d7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 17:45:28.565 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$a3ab72e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 17:45:28.565 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-08-12 17:45:29.174 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8086 (http)
+2019-08-12 17:45:29.190 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-08-12 17:45:29.190 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-08-12 17:45:29.331 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-12 17:45:29.331 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2306 ms
+2019-08-12 17:45:29.674 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-12 17:45:29.674 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-12 17:45:29.674 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-08-12 17:45:29.674 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-12 17:45:29.674 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-08-12 17:45:29.674 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-08-12 17:45:29.674 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-08-12 17:45:29.674 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-08-12 17:45:30.575 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-12 17:45:30.794 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-12 17:45:30.809 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-08-12 17:45:30.872 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-08-12 17:45:30.872 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-12 17:45:30.872 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-08-12 17:45:30.919 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-08-12 17:45:31.090 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-08-12 17:45:31.122 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-12 17:45:31.512 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-08-12 17:45:32.137 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-12 17:45:32.184 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-12 17:45:32.184 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-08-12 17:45:32.246 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-12 17:45:32.356 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-08-12 17:45:33.184 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-12 17:45:35.101 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cc558c6: startup date [Mon Aug 12 17:45:27 CST 2019]; root of context hierarchy
+2019-08-12 17:45:35.226 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/book/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.Book> com.example.demo.controller.BookController.bookList()
+2019-08-12 17:45:35.226 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Department> com.example.demo.controller.DepartmentController.departmentList()
+2019-08-12 17:45:35.226 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/employee],methods=[GET]}" onto public java.util.List<com.example.demo.dto.ParentDeptDto> com.example.demo.controller.DepartmentController.deptToEmp()
+2019-08-12 17:45:35.241 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[POST]}" onto public void com.example.demo.controller.DepartmentController.saveDept(com.example.demo.entity.mybaites.Department)
+2019-08-12 17:45:35.241 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[POST]}" onto public void com.example.demo.controller.EmployeeController.save(com.example.demo.entity.mybaites.Employee)
+2019-08-12 17:45:35.241 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee/empInfo],methods=[GET]}" onto public com.example.demo.dto.EmployeeToDept com.example.demo.controller.EmployeeController.employeeToDept(java.lang.Long)
+2019-08-12 17:45:35.241 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Employee> com.example.demo.controller.EmployeeController.findAll()
+2019-08-12 17:45:35.241 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.demo.controller.IndexController.index(java.security.Principal,javax.servlet.http.HttpServletResponse)
+2019-08-12 17:45:35.241 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/student/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.User> com.example.demo.controller.StudentController.userList()
+2019-08-12 17:45:35.241 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jwt/token],methods=[GET]}" onto public com.example.demo.dto.TokenResult com.example.demo.controller.TokenController.token(java.lang.String)
+2019-08-12 17:45:35.241 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.userList()
+2019-08-12 17:45:35.241 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/find],methods=[POST]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUser(com.example.demo.entity.cloudTest.User)
+2019-08-12 17:45:35.241 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/grantsAge],methods=[GET],params=[age]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUsersGrants(int)
+2019-08-12 17:45:35.241 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[POST]}" onto public java.lang.String com.example.demo.controller.UserController.saveInfo(com.example.demo.entity.cloudTest.User)
+2019-08-12 17:45:35.241 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-12 17:45:35.241 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-12 17:45:35.319 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-12 17:45:35.319 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-12 17:45:35.351 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in springExceptionHandle
+2019-08-12 17:45:35.382 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-12 17:45:35.850 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-08-12 17:45:35.850 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/druid/**'], []
+2019-08-12 17:45:35.991 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ca50bb9, org.springframework.security.web.context.SecurityContextPersistenceFilter@25192b6e, org.springframework.security.web.header.HeaderWriterFilter@119de68f, org.springframework.security.web.authentication.logout.LogoutFilter@5545137d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2a2cdba0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@24c94e95, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2acfd27b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e50e308, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16817bad, org.springframework.security.web.session.SessionManagementFilter@61f18997, org.springframework.security.web.access.ExceptionTranslationFilter@1aa7d66e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f74edbf]
+2019-08-12 17:45:36.022 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7dcc6679, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b8f1c62, org.springframework.security.web.header.HeaderWriterFilter@2c6ed95a, org.springframework.security.web.authentication.logout.LogoutFilter@5ae5a507, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3217e970, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@67c020c8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d3e9163, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44ad3c5e, org.springframework.security.web.session.SessionManagementFilter@62b72289, org.springframework.security.web.access.ExceptionTranslationFilter@1912ba29, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e11996e]
+2019-08-12 17:45:36.366 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-08-12 17:45:36.366 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'cloudDateSource' has been autodetected for JMX exposure
+2019-08-12 17:45:36.366 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'testDateSource' has been autodetected for JMX exposure
+2019-08-12 17:45:36.366 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'mybatisDataSource' has been autodetected for JMX exposure
+2019-08-12 17:45:36.366 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-08-12 17:45:36.382 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'mybatisDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=mybatisDataSource,type=DruidDataSource]
+2019-08-12 17:45:36.382 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'testDateSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=testDateSource,type=DruidDataSource]
+2019-08-12 17:45:36.382 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'cloudDateSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=cloudDateSource,type=DruidDataSource]
+2019-08-12 17:45:36.382 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-08-12 17:45:36.382 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2019-08-12 17:45:36.397 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2019-08-12 17:45:36.413 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-08-12 17:45:36.428 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8086 (http)
+2019-08-12 17:45:36.428 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 9.731 seconds (JVM running for 11.146)
+2019-08-12 17:45:50.055 [http-nio-8086-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-08-12 17:45:50.056 [http-nio-8086-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-08-12 17:45:50.091 [http-nio-8086-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+2019-08-12 17:45:50.126 [http-nio-8086-exec-2] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-12 17:45:50.222 [http-nio-8086-exec-2] DEBUG org.hibernate.SQL - select user0_.id as id1_6_, user0_.age as age2_6_, user0_.password as password3_6_, user0_.username as username4_6_ from user user0_ where user0_.username=?
+2019-08-12 17:45:50.346 [http-nio-8086-exec-2] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [admin]
+2019-08-12 17:45:50.371 [http-nio-8086-exec-2] INFO  com.example.demo.sercurity.UserDetailsImpl - 查找用户
+2019-08-12 17:56:51.593 [http-nio-8086-exec-5] DEBUG org.hibernate.SQL - select user0_.id as id1_6_, user0_.age as age2_6_, user0_.password as password3_6_, user0_.username as username4_6_ from user user0_ where user0_.username=?
+2019-08-12 17:56:51.597 [http-nio-8086-exec-5] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [admin]
+2019-08-12 17:56:51.600 [http-nio-8086-exec-5] INFO  com.example.demo.sercurity.UserDetailsImpl - 查找用户
+2019-08-12 17:57:19.169 [http-nio-8086-exec-9] DEBUG org.hibernate.SQL - select user0_.id as id1_6_, user0_.age as age2_6_, user0_.password as password3_6_, user0_.username as username4_6_ from user user0_ where user0_.username=?
+2019-08-12 17:57:19.170 [http-nio-8086-exec-9] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [admin]
+2019-08-12 17:57:19.171 [http-nio-8086-exec-9] INFO  com.example.demo.sercurity.UserDetailsImpl - 查找用户
+2019-08-12 18:16:55.147 [http-nio-8086-exec-6] DEBUG org.hibernate.SQL - select user0_.id as id1_6_, user0_.age as age2_6_, user0_.password as password3_6_, user0_.username as username4_6_ from user user0_ where user0_.username=?
+2019-08-12 18:16:55.150 [http-nio-8086-exec-6] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [admin]
+2019-08-12 18:16:55.153 [http-nio-8086-exec-6] INFO  com.example.demo.sercurity.UserDetailsImpl - 查找用户
+2019-08-12 18:17:13.249 [http-nio-8086-exec-1] DEBUG org.hibernate.SQL - select user0_.id as id1_6_, user0_.age as age2_6_, user0_.password as password3_6_, user0_.username as username4_6_ from user user0_ where user0_.username=?
+2019-08-12 18:17:13.251 [http-nio-8086-exec-1] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [admin]
+2019-08-12 18:17:13.251 [http-nio-8086-exec-1] INFO  com.example.demo.sercurity.UserDetailsImpl - 查找用户
+2019-08-12 18:17:13.252 [http-nio-8086-exec-1] INFO  com.example.demo.sercurity.UserDetailsImpl - 获取用户权限
+2019-08-12 18:17:13.257 [http-nio-8086-exec-1] DEBUG org.hibernate.SQL - select roleanduse0_.id as id1_5_, roleanduse0_.role_id as role_id2_5_, roleanduse0_.user_id as user_id3_5_ from role_user roleanduse0_ where roleanduse0_.user_id=?
+2019-08-12 18:17:13.260 [http-nio-8086-exec-1] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [BIGINT] - [1]
+2019-08-12 18:17:13.541 [http-nio-8086-exec-7] DEBUG org.hibernate.SQL - insert into log (begin_time, client_url, method, param_data, return_time) values (?, ?, ?, ?, ?)
+2019-08-12 18:17:13.550 [http-nio-8086-exec-7] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [TIMESTAMP] - [Mon Aug 12 18:17:13 CST 2019]
+2019-08-12 18:17:13.553 [http-nio-8086-exec-7] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [/]
+2019-08-12 18:17:13.553 [http-nio-8086-exec-7] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [GET]
+2019-08-12 18:17:13.553 [http-nio-8086-exec-7] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [VARCHAR] - [{}]
+2019-08-12 18:17:13.554 [http-nio-8086-exec-7] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [TIMESTAMP] - [Mon Aug 12 18:17:13 CST 2019]
+2019-08-12 18:18:51.884 [Thread-22] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cc558c6: startup date [Mon Aug 12 17:45:27 CST 2019]; root of context hierarchy
+2019-08-12 18:18:51.884 [Thread-22] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-08-12 18:18:51.884 [Thread-22] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-08-12 18:18:51.884 [Thread-22] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-08-12 18:18:51.884 [Thread-22] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-08-12 18:18:51.900 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-08-12 18:18:51.900 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

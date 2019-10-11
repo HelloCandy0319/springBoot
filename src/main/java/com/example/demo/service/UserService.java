@@ -54,6 +54,10 @@ public class UserService {
         applicationContext.publishEvent(new RegisterUserEvent(this,user));
     }
 
+    public User findUser(Long userId){
+        return userRepository.findOne(userId);
+    }
+
     public List<User> findUserInfo(User user){
         Specification<User> specification =  new Specification<User>() {
             @Override

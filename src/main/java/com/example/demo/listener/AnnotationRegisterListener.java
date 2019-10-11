@@ -8,6 +8,9 @@ import org.springframework.context.event.SmartApplicationListener;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
+/**
+ * 注册用户 监听器
+ */
 @Component
 public class AnnotationRegisterListener implements SmartApplicationListener {
 

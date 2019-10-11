@@ -37,7 +37,7 @@ public class TokenController {
                String token = null;
                if (appToken == null){
                    // 创建token 写入数据库
-                 token = CreateToken(user.getId()+"");
+                 token = CreateToken(user.getId()+"",user.getUsername());
                  AppToken newAppToken =  new AppToken();
                  newAppToken.setAppId(user.getId()+"");
                  newAppToken.setToken(token);
@@ -52,7 +52,7 @@ public class TokenController {
                    if (second>0 && second<= 72000000){
                        token = appToken.getToken();
                    }else {
-                       token = CreateToken(user.getId()+"");
+                       token = CreateToken(user.getId()+"",user.getUsername());
                        appToken.setToken(token);
                        appToken.setBuildTime(String.valueOf(System.currentTimeMillis()));
                        appTokenRepository.save(appToken);
@@ -70,16 +70,16 @@ public class TokenController {
      * @param appId
      * @return
      */
-    private String CreateToken(String appId){
+    private String CreateToken(String appId,String appName){
         Date now = new Date(System.currentTimeMillis());
         Date expiration = new Date(now.getTime()+ 72000000);
         return Jwts
                 .builder()
                 .setSubject(appId)          //面向用户AppId
                 .setIssuedAt(now)
-                .setIssuer("Online Yuth Builder")   // 该JWT的签发者
+                .setIssuer("Cindy")   // 该JWT的签发者
                 .setExpiration(expiration)
-                .signWith(SignatureAlgorithm.HS256,"Cindy V1.0")       //签名算法  两个参数分别是签名算法和自定义的签名Key（盐）
+                .signWith(SignatureAlgorithm.HS256,"TokenTest"+appId)       //签名算法  两个参数分别是签名算法和自定义的签名Key（盐）
                 .compact();
     }
 }
