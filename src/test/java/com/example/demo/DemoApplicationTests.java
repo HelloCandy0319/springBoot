@@ -6,8 +6,11 @@ import com.example.demo.entity.test.Article;
 import com.example.demo.entity.test.Book;
 import com.example.demo.entity.test.Library;
 import com.example.demo.entity.test.Student;
-import com.example.demo.service.RedisService;
+import com.example.demo.kafka.service.Consumer;
+import com.example.demo.kafka.service.Producer;
 import com.example.demo.service.StudentService;
+import com.example.demo.testYpf.search.qichacha.QichachaUnit;
+import com.example.demo.testYpf.search.tianyancha.TianyanchaUnit;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,20 +35,24 @@ public class DemoApplicationTests {
     private Person person1;
     @Autowired
     private StudentService studentService;
-
     @Autowired
-    RedisService redisService;
+    private QichachaUnit qichachaUnit;
+    @Autowired
+    private TianyanchaUnit tianyanchaUnit;
 
-    @Test
-    public void testRedisSave(){
-        redisService.RedisSave();
-    }
-
-    @Test
-    public void testRedisGet(){
-        System.out.println("结果：：：");
-        redisService.RedisGet();
-    }
+//    @Autowired
+//    RedisService redisService;
+//
+//    @Test
+//    public void testRedisSave(){
+//        redisService.RedisSave();
+//    }
+//
+//    @Test
+//    public void testRedisGet(){
+//        System.out.println("结果：：：");
+//        redisService.RedisGet();
+//    }
 
     @Test
     public void contextLoads() {
@@ -103,4 +110,25 @@ public class DemoApplicationTests {
     public void deletePhone(){
         studentService.deletePhone();
     }
+
+
+    @Test
+    public void qichachaTest(){
+        qichachaUnit.getInfoByInfo();
+    }
+
+    @Test
+    public void tianyanchaTest(){
+        String url = "https://open.api.tianyancha.com/services/v4/open/changeinfoV2?name=平安银行股份有限公司";
+        tianyanchaUnit.getMessageByUrl(url);
+    }
+    @Autowired
+    Producer producer;
+    @Test
+    public void testKafkaProducer() throws Exception{
+       for (int i=0;i<5;i++){
+           producer.senderMessage("这个是第"+i+"个测试消息");
+       }
+    }
+
 }

@@ -1,0 +1,1687 @@
+2019-10-31 16:37:24.814 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2019-10-31 16:37:24.837 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-31 16:37:24.839 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-31 16:37:25.314 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2019-10-31 16:37:25.351 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-31 16:37:25.432 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@9353778, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6a28ffa4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@48ae9b55, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1700915, org.springframework.test.context.transaction.TransactionalTestExecutionListener@21de60b4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c267ef4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@30ee2816, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@31d7b7bf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@635eaaf1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5c30a9b0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1ddf84b8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1139b2f3]
+2019-10-31 16:37:27.688 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on SC-201902202144 with PID 5480 (started by Administrator in F:\Springboot)
+2019-10-31 16:37:27.689 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2019-10-31 16:37:27.856 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@750e2b97: startup date [Thu Oct 31 16:37:27 CST 2019]; root of context hierarchy
+2019-10-31 16:37:29.361 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-10-31 16:37:32.183 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-10-31 16:37:33.361 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo.entity.mybaites]' package. Please check your configuration.
+2019-10-31 16:37:33.363 [main] WARN  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisEntityManager' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-10-31 16:37:33.612 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-10-31 16:37:33.614 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-10-31 16:37:33.614 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-10-31 16:37:34.167 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$12f0a2f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:37:34.347 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$137860] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:37:34.357 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-10-31 16:37:35.006 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$c3465b30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:37:39.915 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-31 16:37:40.779 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:37:40.839 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-10-31 16:37:41.134 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-10-31 16:37:41.138 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-10-31 16:37:41.142 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-10-31 16:37:41.281 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-10-31 16:37:41.645 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-10-31 16:37:41.695 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 16:37:44.725 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 16:37:46.802 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:37:46.943 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:37:46.944 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-10-31 16:37:46.978 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 16:37:47.615 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 16:37:50.339 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:37:57.904 [main] WARN  o.s.w.context.support.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'consumer' defined in file [F:\Springboot\target\classes\com\example\demo\kafka\service\Consumer.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property or field 'topicName' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+2019-10-31 16:37:57.930 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:37:57.931 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:37:57.939 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-10-31 16:37:57.942 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-31 16:37:57.988 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-10-31 16:37:58.068 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'consumer' defined in file [F:\Springboot\target\classes\com\example\demo\kafka\service\Consumer.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property or field 'topicName' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property or field 'topicName' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:164)
+	at org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor.resolveExpression(KafkaListenerAnnotationBeanPostProcessor.java:593)
+	at org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor.resolveTopics(KafkaListenerAnnotationBeanPostProcessor.java:432)
+	at org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor.processListener(KafkaListenerAnnotationBeanPostProcessor.java:380)
+	at org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor.processKafkaListener(KafkaListenerAnnotationBeanPostProcessor.java:339)
+	at org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor.postProcessAfterInitialization(KafkaListenerAnnotationBeanPostProcessor.java:273)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	... 38 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property or field 'topicName' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:224)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:94)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:81)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:242)
+	at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:161)
+	... 46 common frames omitted
+2019-10-31 16:37:58.096 [main] ERROR o.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@9353778] to prepare test instance [com.example.demo.DemoApplicationTests@7aaf6bfd]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'consumer' defined in file [F:\Springboot\target\classes\com\example\demo\kafka\service\Consumer.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property or field 'topicName' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property or field 'topicName' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:164)
+	at org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor.resolveExpression(KafkaListenerAnnotationBeanPostProcessor.java:593)
+	at org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor.resolveTopics(KafkaListenerAnnotationBeanPostProcessor.java:432)
+	at org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor.processListener(KafkaListenerAnnotationBeanPostProcessor.java:380)
+	at org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor.processKafkaListener(KafkaListenerAnnotationBeanPostProcessor.java:339)
+	at org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor.postProcessAfterInitialization(KafkaListenerAnnotationBeanPostProcessor.java:273)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	... 38 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property or field 'topicName' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:224)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:94)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:81)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:242)
+	at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:161)
+	... 46 common frames omitted
+2019-10-31 16:40:12.591 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2019-10-31 16:40:12.618 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-31 16:40:12.619 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-31 16:40:12.920 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2019-10-31 16:40:12.960 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-31 16:40:13.038 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@609bcfb6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7d94beb9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@560348e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1df8b5b8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@23202fce, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7b993c65, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@37911f88, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6f1c29b7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4d6025c5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7f284218, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@407a7f2a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4ea5b703]
+2019-10-31 16:40:14.188 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on SC-201902202144 with PID 1144 (started by Administrator in F:\Springboot)
+2019-10-31 16:40:14.189 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2019-10-31 16:40:14.379 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@67ab1c47: startup date [Thu Oct 31 16:40:14 CST 2019]; root of context hierarchy
+2019-10-31 16:40:15.812 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-10-31 16:40:17.805 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-10-31 16:40:18.933 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo.entity.mybaites]' package. Please check your configuration.
+2019-10-31 16:40:18.935 [main] WARN  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisEntityManager' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-10-31 16:40:19.318 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-10-31 16:40:19.321 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-10-31 16:40:19.322 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-10-31 16:40:19.986 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$14f86372] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:40:20.140 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$21b38da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:40:20.153 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-10-31 16:40:20.433 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$c54e1baa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:40:23.857 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-31 16:40:24.520 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:40:24.635 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-10-31 16:40:24.856 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-10-31 16:40:24.860 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-10-31 16:40:24.865 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-10-31 16:40:25.006 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-10-31 16:40:25.300 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-10-31 16:40:25.337 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 16:40:28.225 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 16:40:29.483 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:40:29.594 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:40:29.595 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-10-31 16:40:29.617 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 16:40:30.012 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 16:40:31.939 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:40:37.755 [main] WARN  o.s.w.context.support.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'producer' defined in file [F:\Springboot\target\classes\com\example\demo\kafka\service\Producer.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.kafka.service.Producer]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2019-10-31 16:40:37.764 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:40:37.767 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:40:37.779 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-10-31 16:40:37.787 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-31 16:40:37.807 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-10-31 16:40:37.841 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'producer' defined in file [F:\Springboot\target\classes\com\example\demo\kafka\service\Producer.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.kafka.service.Producer]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.kafka.service.Producer]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:154)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	... 40 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.example.demo.kafka.service.Producer.<init>(Producer.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	... 42 common frames omitted
+2019-10-31 16:40:37.849 [main] ERROR o.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@609bcfb6] to prepare test instance [com.example.demo.DemoApplicationTests@7fd7965b]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'producer' defined in file [F:\Springboot\target\classes\com\example\demo\kafka\service\Producer.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.kafka.service.Producer]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.kafka.service.Producer]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:154)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	... 40 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.example.demo.kafka.service.Producer.<init>(Producer.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	... 42 common frames omitted
+2019-10-31 16:41:51.379 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2019-10-31 16:41:51.405 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-31 16:41:51.407 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-31 16:41:51.826 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2019-10-31 16:41:51.860 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-31 16:41:51.934 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@609bcfb6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7d94beb9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@560348e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1df8b5b8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@23202fce, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7b993c65, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@37911f88, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6f1c29b7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4d6025c5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7f284218, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@407a7f2a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4ea5b703]
+2019-10-31 16:41:53.173 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on SC-201902202144 with PID 17832 (started by Administrator in F:\Springboot)
+2019-10-31 16:41:53.174 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2019-10-31 16:41:53.320 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@b78a709: startup date [Thu Oct 31 16:41:53 CST 2019]; root of context hierarchy
+2019-10-31 16:41:54.704 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-10-31 16:41:56.920 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-10-31 16:41:58.780 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo.entity.mybaites]' package. Please check your configuration.
+2019-10-31 16:41:58.782 [main] WARN  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisEntityManager' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-10-31 16:41:59.428 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-10-31 16:41:59.430 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-10-31 16:41:59.431 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-10-31 16:42:00.339 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$876a23d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:42:00.775 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$748cf93e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:42:00.799 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-10-31 16:42:01.605 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$37bfdc0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:42:06.735 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-31 16:42:07.235 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:42:07.296 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-10-31 16:42:07.542 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-10-31 16:42:07.546 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-10-31 16:42:07.549 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-10-31 16:42:07.791 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-10-31 16:42:08.244 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-10-31 16:42:08.331 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 16:42:11.834 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 16:42:13.249 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:42:13.379 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:42:13.380 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-10-31 16:42:13.429 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 16:42:14.213 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 16:42:16.380 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:42:20.730 [main] WARN  o.s.w.context.support.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'producer' defined in file [F:\Springboot\target\classes\com\example\demo\kafka\service\Producer.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.kafka.service.Producer]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2019-10-31 16:42:20.740 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:42:20.742 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:42:20.750 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-10-31 16:42:20.754 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-31 16:42:20.776 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-10-31 16:42:20.814 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'producer' defined in file [F:\Springboot\target\classes\com\example\demo\kafka\service\Producer.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.kafka.service.Producer]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.kafka.service.Producer]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:154)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	... 40 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.example.demo.kafka.service.Producer.<init>(Producer.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	... 42 common frames omitted
+2019-10-31 16:42:20.822 [main] ERROR o.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@609bcfb6] to prepare test instance [com.example.demo.DemoApplicationTests@6f28a07e]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'producer' defined in file [F:\Springboot\target\classes\com\example\demo\kafka\service\Producer.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.kafka.service.Producer]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.kafka.service.Producer]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:154)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	... 40 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.example.demo.kafka.service.Producer.<init>(Producer.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	... 42 common frames omitted
+2019-10-31 16:44:05.273 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2019-10-31 16:44:05.310 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-31 16:44:05.312 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-31 16:44:05.672 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2019-10-31 16:44:05.711 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-31 16:44:05.804 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@609bcfb6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7d94beb9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@560348e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1df8b5b8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@23202fce, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7b993c65, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@37911f88, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6f1c29b7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4d6025c5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7f284218, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@407a7f2a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4ea5b703]
+2019-10-31 16:44:07.234 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on SC-201902202144 with PID 15332 (started by Administrator in F:\Springboot)
+2019-10-31 16:44:07.235 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2019-10-31 16:44:07.370 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@b78a709: startup date [Thu Oct 31 16:44:07 CST 2019]; root of context hierarchy
+2019-10-31 16:44:08.489 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-10-31 16:44:10.858 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-10-31 16:44:12.375 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo.entity.mybaites]' package. Please check your configuration.
+2019-10-31 16:44:12.378 [main] WARN  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisEntityManager' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-10-31 16:44:12.834 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-10-31 16:44:12.838 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-10-31 16:44:12.838 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-10-31 16:44:13.743 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$2380357] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:44:13.946 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$ef5ad8bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:44:13.963 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-10-31 16:44:14.239 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$b28dbb8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:44:18.256 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-31 16:44:18.782 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:44:18.839 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-10-31 16:44:19.094 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-10-31 16:44:19.098 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-10-31 16:44:19.102 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-10-31 16:44:19.269 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-10-31 16:44:19.654 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-10-31 16:44:19.707 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 16:44:22.456 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 16:44:23.689 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:44:23.775 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:44:23.775 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-10-31 16:44:23.798 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 16:44:24.256 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 16:44:26.467 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:44:33.491 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@b78a709: startup date [Thu Oct 31 16:44:07 CST 2019]; root of context hierarchy
+2019-10-31 16:44:33.905 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/book/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.Book> com.example.demo.controller.BookController.bookList(com.example.demo.entity.cloudTest.User)
+2019-10-31 16:44:33.911 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[POST]}" onto public void com.example.demo.controller.DepartmentController.saveDept(com.example.demo.entity.mybaites.Department)
+2019-10-31 16:44:33.911 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Department> com.example.demo.controller.DepartmentController.departmentList()
+2019-10-31 16:44:33.916 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/employee],methods=[GET]}" onto public java.util.List<com.example.demo.dto.ParentDeptDto> com.example.demo.controller.DepartmentController.deptToEmp()
+2019-10-31 16:44:33.920 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[POST]}" onto public void com.example.demo.controller.EmployeeController.save(com.example.demo.entity.mybaites.Employee)
+2019-10-31 16:44:33.921 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee/empInfo],methods=[GET]}" onto public com.example.demo.dto.EmployeeToDept com.example.demo.controller.EmployeeController.employeeToDept(java.lang.Long)
+2019-10-31 16:44:33.921 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Employee> com.example.demo.controller.EmployeeController.findAll()
+2019-10-31 16:44:33.922 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.demo.controller.IndexController.index(java.security.Principal,javax.servlet.http.HttpServletResponse)
+2019-10-31 16:44:33.923 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/student/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.User> com.example.demo.controller.StudentController.userList()
+2019-10-31 16:44:33.924 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jwt/token],methods=[GET]}" onto public com.example.demo.dto.TokenResult com.example.demo.controller.TokenController.token(java.lang.String)
+2019-10-31 16:44:33.934 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.userList()
+2019-10-31 16:44:33.935 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/find],methods=[POST]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUser(com.example.demo.entity.cloudTest.User)
+2019-10-31 16:44:33.935 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/grantsAge],methods=[GET],params=[age]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUsersGrants(int)
+2019-10-31 16:44:33.936 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[POST]}" onto public java.lang.String com.example.demo.controller.UserController.saveInfo(com.example.demo.entity.cloudTest.User)
+2019-10-31 16:44:33.941 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-31 16:44:33.942 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-10-31 16:44:34.245 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-31 16:44:34.245 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-31 16:44:34.309 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in springExceptionHandle
+2019-10-31 16:44:34.423 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-31 16:44:35.942 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-10-31 16:44:35.942 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/druid/**'], []
+2019-10-31 16:44:36.274 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17734113, org.springframework.security.web.context.SecurityContextPersistenceFilter@5936e4ba, org.springframework.security.web.header.HeaderWriterFilter@7b14e7dc, org.springframework.security.web.authentication.logout.LogoutFilter@2670435, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3b5769b3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@598b15ba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@435b944c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d619aa0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27aa700, org.springframework.security.web.session.SessionManagementFilter@64903a20, org.springframework.security.web.access.ExceptionTranslationFilter@4f091800, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b5dd040]
+2019-10-31 16:44:36.320 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1802badc, org.springframework.security.web.context.SecurityContextPersistenceFilter@797a5b31, org.springframework.security.web.header.HeaderWriterFilter@333813e7, org.springframework.security.web.authentication.logout.LogoutFilter@2459715c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@401e36ab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13d7d1a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60035f1e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a089620, org.springframework.security.web.session.SessionManagementFilter@292237cd, org.springframework.security.web.access.ExceptionTranslationFilter@6dd0e2f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@179dc2]
+2019-10-31 16:44:37.255 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+2019-10-31 16:44:37.326 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9001]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringSerializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 15000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-10-31 16:44:37.343 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9001]
+	check.crcs = true
+	client.id = consumer-1
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringSerializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 15000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-10-31 16:44:37.352 [main] WARN  o.s.w.context.support.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is org.apache.kafka.common.KafkaException: Failed to construct kafka consumer
+2019-10-31 16:44:37.364 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:44:37.366 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:44:37.375 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-10-31 16:44:37.379 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-31 16:44:37.398 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-10-31 16:44:37.431 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is org.apache.kafka.common.KafkaException: Failed to construct kafka consumer
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:50)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:348)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:151)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:114)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.apache.kafka.common.KafkaException: Failed to construct kafka consumer
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:703)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:553)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createKafkaConsumer(DefaultKafkaConsumerFactory.java:73)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createConsumer(DefaultKafkaConsumerFactory.java:69)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.<init>(KafkaMessageListenerContainer.java:306)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.<init>(KafkaMessageListenerContainer.java:231)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer.doStart(KafkaMessageListenerContainer.java:181)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:202)
+	at org.springframework.kafka.listener.ConcurrentMessageListenerContainer.doStart(ConcurrentMessageListenerContainer.java:124)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:202)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.startIfNecessary(KafkaListenerEndpointRegistry.java:287)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.start(KafkaListenerEndpointRegistry.java:236)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:175)
+	... 36 common frames omitted
+Caused by: org.apache.kafka.common.KafkaException: org.apache.kafka.common.serialization.StringSerializer is not an instance of org.apache.kafka.common.serialization.Deserializer
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:205)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:624)
+	... 48 common frames omitted
+2019-10-31 16:44:37.436 [main] ERROR o.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@609bcfb6] to prepare test instance [com.example.demo.DemoApplicationTests@ff7042c]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is org.apache.kafka.common.KafkaException: Failed to construct kafka consumer
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:50)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:348)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:151)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:114)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: org.apache.kafka.common.KafkaException: Failed to construct kafka consumer
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:703)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:553)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createKafkaConsumer(DefaultKafkaConsumerFactory.java:73)
+	at org.springframework.kafka.core.DefaultKafkaConsumerFactory.createConsumer(DefaultKafkaConsumerFactory.java:69)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.<init>(KafkaMessageListenerContainer.java:306)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.<init>(KafkaMessageListenerContainer.java:231)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer.doStart(KafkaMessageListenerContainer.java:181)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:202)
+	at org.springframework.kafka.listener.ConcurrentMessageListenerContainer.doStart(ConcurrentMessageListenerContainer.java:124)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:202)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.startIfNecessary(KafkaListenerEndpointRegistry.java:287)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.start(KafkaListenerEndpointRegistry.java:236)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:175)
+	... 36 common frames omitted
+Caused by: org.apache.kafka.common.KafkaException: org.apache.kafka.common.serialization.StringSerializer is not an instance of org.apache.kafka.common.serialization.Deserializer
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:205)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:624)
+	... 48 common frames omitted
+2019-10-31 16:46:21.376 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2019-10-31 16:46:21.403 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-31 16:46:21.404 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-31 16:46:21.843 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2019-10-31 16:46:21.880 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-31 16:46:21.967 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@609bcfb6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7d94beb9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@560348e6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1df8b5b8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@23202fce, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7b993c65, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@37911f88, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6f1c29b7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4d6025c5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7f284218, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@407a7f2a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4ea5b703]
+2019-10-31 16:46:23.105 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on SC-201902202144 with PID 18352 (started by Administrator in F:\Springboot)
+2019-10-31 16:46:23.106 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2019-10-31 16:46:23.241 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@b78a709: startup date [Thu Oct 31 16:46:23 CST 2019]; root of context hierarchy
+2019-10-31 16:46:24.560 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-10-31 16:46:26.882 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-10-31 16:46:28.082 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo.entity.mybaites]' package. Please check your configuration.
+2019-10-31 16:46:28.084 [main] WARN  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisEntityManager' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-10-31 16:46:28.436 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-10-31 16:46:28.438 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-10-31 16:46:28.439 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-10-31 16:46:29.148 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$9f484921] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:46:29.370 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$8c6b1e89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:46:29.395 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-10-31 16:46:29.761 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$4f9e0159] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:46:33.178 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-31 16:46:33.807 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:46:33.844 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-10-31 16:46:34.045 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-10-31 16:46:34.052 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-10-31 16:46:34.059 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-10-31 16:46:34.201 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-10-31 16:46:34.492 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-10-31 16:46:34.545 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 16:46:37.296 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 16:46:38.499 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:46:38.611 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:46:38.612 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-10-31 16:46:38.635 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 16:46:39.084 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 16:46:41.115 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:46:47.589 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@b78a709: startup date [Thu Oct 31 16:46:23 CST 2019]; root of context hierarchy
+2019-10-31 16:46:48.042 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/book/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.Book> com.example.demo.controller.BookController.bookList(com.example.demo.entity.cloudTest.User)
+2019-10-31 16:46:48.048 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Department> com.example.demo.controller.DepartmentController.departmentList()
+2019-10-31 16:46:48.048 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[POST]}" onto public void com.example.demo.controller.DepartmentController.saveDept(com.example.demo.entity.mybaites.Department)
+2019-10-31 16:46:48.050 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/employee],methods=[GET]}" onto public java.util.List<com.example.demo.dto.ParentDeptDto> com.example.demo.controller.DepartmentController.deptToEmp()
+2019-10-31 16:46:48.053 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[POST]}" onto public void com.example.demo.controller.EmployeeController.save(com.example.demo.entity.mybaites.Employee)
+2019-10-31 16:46:48.054 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Employee> com.example.demo.controller.EmployeeController.findAll()
+2019-10-31 16:46:48.054 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee/empInfo],methods=[GET]}" onto public com.example.demo.dto.EmployeeToDept com.example.demo.controller.EmployeeController.employeeToDept(java.lang.Long)
+2019-10-31 16:46:48.055 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.demo.controller.IndexController.index(java.security.Principal,javax.servlet.http.HttpServletResponse)
+2019-10-31 16:46:48.056 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/student/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.User> com.example.demo.controller.StudentController.userList()
+2019-10-31 16:46:48.057 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jwt/token],methods=[GET]}" onto public com.example.demo.dto.TokenResult com.example.demo.controller.TokenController.token(java.lang.String)
+2019-10-31 16:46:48.064 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/find],methods=[POST]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUser(com.example.demo.entity.cloudTest.User)
+2019-10-31 16:46:48.065 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.userList()
+2019-10-31 16:46:48.065 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/grantsAge],methods=[GET],params=[age]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUsersGrants(int)
+2019-10-31 16:46:48.066 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[POST]}" onto public java.lang.String com.example.demo.controller.UserController.saveInfo(com.example.demo.entity.cloudTest.User)
+2019-10-31 16:46:48.071 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-31 16:46:48.073 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-10-31 16:46:48.364 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-31 16:46:48.365 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-31 16:46:48.431 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in springExceptionHandle
+2019-10-31 16:46:48.537 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-31 16:46:50.590 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-10-31 16:46:50.590 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/druid/**'], []
+2019-10-31 16:46:51.288 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9c88323, org.springframework.security.web.context.SecurityContextPersistenceFilter@75ad7531, org.springframework.security.web.header.HeaderWriterFilter@60ab906e, org.springframework.security.web.authentication.logout.LogoutFilter@251ed676, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@19574274, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@13088030, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27f7db5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e64e44c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d4bdb75, org.springframework.security.web.session.SessionManagementFilter@7f4f432b, org.springframework.security.web.access.ExceptionTranslationFilter@7b01f056, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37e552ff]
+2019-10-31 16:46:51.428 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56f3f9da, org.springframework.security.web.context.SecurityContextPersistenceFilter@279b83ea, org.springframework.security.web.header.HeaderWriterFilter@d7645b2, org.springframework.security.web.authentication.logout.LogoutFilter@76480730, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@405a296e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f9083b4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40f40221, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56587330, org.springframework.security.web.session.SessionManagementFilter@72e4905c, org.springframework.security.web.access.ExceptionTranslationFilter@3c6c87fa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1766b7]
+2019-10-31 16:46:52.636 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+2019-10-31 16:46:52.684 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9001]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 15000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-31 16:46:52.703 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9001]
+	check.crcs = true
+	client.id = consumer-1
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 15000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-31 16:46:52.928 [main] WARN  org.apache.kafka.clients.consumer.ConsumerConfig - The configuration 'linger.ms' was supplied but isn't a known config.
+2019-10-31 16:46:52.935 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 0.10.1.1
+2019-10-31 16:46:52.935 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : f10ef2720b03b247
+2019-10-31 16:46:53.011 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 30.768 seconds (JVM running for 36.901)
+2019-10-31 16:47:09.105 [main] INFO  com.example.demo.kafka.service.Producer - kafka send messages
+2019-10-31 16:47:15.508 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [127.0.0.1:9001]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-10-31 16:47:15.510 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [127.0.0.1:9001]
+	buffer.memory = 33554432
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-10-31 16:47:15.539 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'session.timeout.ms' was supplied but isn't a known config.
+2019-10-31 16:47:15.539 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 0.10.1.1
+2019-10-31 16:47:15.539 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : f10ef2720b03b247
+2019-10-31 16:48:15.553 [main] ERROR o.s.kafka.support.LoggingProducerListener - Exception thrown when sending a message with key='null' and payload='这个是第一个测试消息' to topic test:
+org.apache.kafka.common.errors.TimeoutException: Failed to update metadata after 60000 ms.
+2019-10-31 16:48:15.559 [main] INFO  com.example.demo.kafka.service.Producer - test-----消息发送失败------Failed to send; nested exception is org.apache.kafka.common.errors.TimeoutException: Failed to update metadata after 60000 ms.
+2019-10-31 16:48:15.571 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@b78a709: startup date [Thu Oct 31 16:46:23 CST 2019]; root of context hierarchy
+2019-10-31 16:48:15.596 [Thread-2] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-10-31 16:48:15.610 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - Consumer stopped
+2019-10-31 16:48:15.616 [Thread-2] INFO  org.apache.kafka.clients.producer.KafkaProducer - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-10-31 16:48:15.636 [Thread-2] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:48:15.639 [Thread-2] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:48:15.653 [Thread-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-10-31 16:48:15.680 [Thread-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-31 16:52:38.454 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2019-10-31 16:52:38.480 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-31 16:52:38.482 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-31 16:52:38.775 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2019-10-31 16:52:38.804 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-31 16:52:38.872 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@560348e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1df8b5b8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@23202fce, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7b993c65, org.springframework.test.context.transaction.TransactionalTestExecutionListener@37911f88, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6f1c29b7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4d6025c5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7f284218, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@407a7f2a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4ea5b703, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2a7ed1f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3fa247d1]
+2019-10-31 16:52:39.939 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on SC-201902202144 with PID 14552 (started by Administrator in F:\Springboot)
+2019-10-31 16:52:39.939 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2019-10-31 16:52:40.071 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@30bcf3c1: startup date [Thu Oct 31 16:52:40 CST 2019]; root of context hierarchy
+2019-10-31 16:52:41.093 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-10-31 16:52:43.058 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-10-31 16:52:44.307 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo.entity.mybaites]' package. Please check your configuration.
+2019-10-31 16:52:44.308 [main] WARN  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisEntityManager' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-10-31 16:52:44.874 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-10-31 16:52:44.876 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-10-31 16:52:44.877 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-10-31 16:52:45.605 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$d5d37206] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:52:45.791 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$c2f6476e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:52:45.805 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-10-31 16:52:46.149 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$86292a3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 16:52:49.625 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-31 16:52:50.252 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:52:50.306 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-10-31 16:52:50.572 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-10-31 16:52:50.578 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-10-31 16:52:50.582 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-10-31 16:52:50.823 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-10-31 16:52:51.108 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-10-31 16:52:51.151 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 16:52:54.094 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 16:52:55.373 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:52:55.478 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:52:55.478 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-10-31 16:52:55.497 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 16:52:55.914 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 16:52:57.873 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:53:05.132 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@30bcf3c1: startup date [Thu Oct 31 16:52:40 CST 2019]; root of context hierarchy
+2019-10-31 16:53:05.437 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/book/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.Book> com.example.demo.controller.BookController.bookList(com.example.demo.entity.cloudTest.User)
+2019-10-31 16:53:05.448 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[POST]}" onto public void com.example.demo.controller.DepartmentController.saveDept(com.example.demo.entity.mybaites.Department)
+2019-10-31 16:53:05.448 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/employee],methods=[GET]}" onto public java.util.List<com.example.demo.dto.ParentDeptDto> com.example.demo.controller.DepartmentController.deptToEmp()
+2019-10-31 16:53:05.449 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Department> com.example.demo.controller.DepartmentController.departmentList()
+2019-10-31 16:53:05.451 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[POST]}" onto public void com.example.demo.controller.EmployeeController.save(com.example.demo.entity.mybaites.Employee)
+2019-10-31 16:53:05.452 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Employee> com.example.demo.controller.EmployeeController.findAll()
+2019-10-31 16:53:05.453 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee/empInfo],methods=[GET]}" onto public com.example.demo.dto.EmployeeToDept com.example.demo.controller.EmployeeController.employeeToDept(java.lang.Long)
+2019-10-31 16:53:05.456 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.demo.controller.IndexController.index(java.security.Principal,javax.servlet.http.HttpServletResponse)
+2019-10-31 16:53:05.457 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/student/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.User> com.example.demo.controller.StudentController.userList()
+2019-10-31 16:53:05.473 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jwt/token],methods=[GET]}" onto public com.example.demo.dto.TokenResult com.example.demo.controller.TokenController.token(java.lang.String)
+2019-10-31 16:53:05.479 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.userList()
+2019-10-31 16:53:05.479 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/find],methods=[POST]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUser(com.example.demo.entity.cloudTest.User)
+2019-10-31 16:53:05.480 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[POST]}" onto public java.lang.String com.example.demo.controller.UserController.saveInfo(com.example.demo.entity.cloudTest.User)
+2019-10-31 16:53:05.480 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/grantsAge],methods=[GET],params=[age]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUsersGrants(int)
+2019-10-31 16:53:05.484 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-31 16:53:05.485 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-10-31 16:53:05.686 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-31 16:53:05.687 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-31 16:53:05.756 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in springExceptionHandle
+2019-10-31 16:53:05.884 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-31 16:53:07.511 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-10-31 16:53:07.512 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/druid/**'], []
+2019-10-31 16:53:07.803 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@747e0a31, org.springframework.security.web.context.SecurityContextPersistenceFilter@5bcda4a6, org.springframework.security.web.header.HeaderWriterFilter@71a2a9a0, org.springframework.security.web.authentication.logout.LogoutFilter@292237cd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5e83badc, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1d628a88, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19574274, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f8cb4c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60ee1a29, org.springframework.security.web.session.SessionManagementFilter@5f5c2451, org.springframework.security.web.access.ExceptionTranslationFilter@3a69c81e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@320bfc61]
+2019-10-31 16:53:07.853 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@595626b8, org.springframework.security.web.context.SecurityContextPersistenceFilter@12568b11, org.springframework.security.web.header.HeaderWriterFilter@7ceb432c, org.springframework.security.web.authentication.logout.LogoutFilter@211ffbd0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@472d201, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f8186a5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69554e5a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1928930, org.springframework.security.web.session.SessionManagementFilter@4f143176, org.springframework.security.web.access.ExceptionTranslationFilter@53e1cd6b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2162e4a]
+2019-10-31 16:53:08.810 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+2019-10-31 16:53:08.869 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9002]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 15000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-31 16:53:08.890 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9002]
+	check.crcs = true
+	client.id = consumer-1
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 15000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-31 16:53:09.100 [main] WARN  org.apache.kafka.clients.consumer.ConsumerConfig - The configuration 'linger.ms' was supplied but isn't a known config.
+2019-10-31 16:53:09.107 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 0.10.1.1
+2019-10-31 16:53:09.107 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : f10ef2720b03b247
+2019-10-31 16:53:09.156 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 30.059 seconds (JVM running for 35.627)
+2019-10-31 16:53:09.372 [main] INFO  com.example.demo.kafka.service.Producer - kafka send messages
+2019-10-31 16:53:09.388 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [127.0.0.1:9002]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-10-31 16:53:09.390 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [127.0.0.1:9002]
+	buffer.memory = 33554432
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-10-31 16:53:09.428 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'session.timeout.ms' was supplied but isn't a known config.
+2019-10-31 16:53:09.429 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 0.10.1.1
+2019-10-31 16:53:09.430 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : f10ef2720b03b247
+2019-10-31 16:54:09.446 [main] ERROR o.s.kafka.support.LoggingProducerListener - Exception thrown when sending a message with key='null' and payload='这个是第一个测试消息' to topic test:
+org.apache.kafka.common.errors.TimeoutException: Failed to update metadata after 60000 ms.
+2019-10-31 16:54:09.456 [main] INFO  com.example.demo.kafka.service.Producer - test-----消息发送失败------Failed to send; nested exception is org.apache.kafka.common.errors.TimeoutException: Failed to update metadata after 60000 ms.
+2019-10-31 16:54:09.485 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@30bcf3c1: startup date [Thu Oct 31 16:52:40 CST 2019]; root of context hierarchy
+2019-10-31 16:54:09.489 [Thread-2] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-10-31 16:54:09.499 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - Consumer stopped
+2019-10-31 16:54:09.506 [Thread-2] INFO  org.apache.kafka.clients.producer.KafkaProducer - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-10-31 16:54:09.528 [Thread-2] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 16:54:09.530 [Thread-2] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 16:54:09.541 [Thread-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-10-31 16:54:09.543 [Thread-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-10-31 17:05:47.129 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.DemoApplicationTests], using SpringBootContextLoader
+2019-10-31 17:05:47.154 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-10-31 17:05:47.155 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-10-31 17:05:47.520 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2019-10-31 17:05:47.562 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-10-31 17:05:47.665 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@560348e6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1df8b5b8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@23202fce, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7b993c65, org.springframework.test.context.transaction.TransactionalTestExecutionListener@37911f88, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6f1c29b7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4d6025c5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7f284218, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@407a7f2a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4ea5b703, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2a7ed1f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3fa247d1]
+2019-10-31 17:05:48.892 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on SC-201902202144 with PID 9648 (started by Administrator in F:\Springboot)
+2019-10-31 17:05:48.893 [main] INFO  com.example.demo.DemoApplicationTests - No active profile set, falling back to default profiles: default
+2019-10-31 17:05:49.019 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a3c96e3: startup date [Thu Oct 31 17:05:49 CST 2019]; root of context hierarchy
+2019-10-31 17:05:50.138 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2019-10-31 17:05:52.224 [main] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [druid-bean.xml]
+2019-10-31 17:05:53.974 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo.entity.mybaites]' package. Please check your configuration.
+2019-10-31 17:05:53.976 [main] WARN  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'mybatisEntityManager' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-10-31 17:05:54.342 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - name1111"zhangsan"
+2019-10-31 17:05:54.345 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum11sss1Monday
+2019-10-31 17:05:54.346 [main] INFO  com.example.demo.testYpf.interfaceTest.Shopping - enum222Mon
+2019-10-31 17:05:55.283 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'druidConfiguration' of type [com.example.demo.config.DruidConfiguration$$EnhancerBySpringCGLIB$$b30a51d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 17:05:55.576 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'listenerAsyncConfiguration' of type [com.example.demo.listener.ListenerAsyncConfiguration$$EnhancerBySpringCGLIB$$a02d273f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 17:05:55.601 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-10-31 17:05:55.997 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$63600a0f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 17:06:00.231 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-10-31 17:06:00.990 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 17:06:01.046 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: cloudTestPersistence
+	...]
+2019-10-31 17:06:01.355 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-10-31 17:06:01.361 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-10-31 17:06:01.367 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-10-31 17:06:01.677 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-10-31 17:06:02.107 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-10-31 17:06:02.151 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 17:06:05.612 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 17:06:07.033 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 17:06:07.183 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 17:06:07.185 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: testPersistence
+	...]
+2019-10-31 17:06:07.213 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-31 17:06:07.695 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2019-10-31 17:06:10.062 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 17:06:22.978 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2a3c96e3: startup date [Thu Oct 31 17:05:49 CST 2019]; root of context hierarchy
+2019-10-31 17:06:23.472 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/book/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.Book> com.example.demo.controller.BookController.bookList(com.example.demo.entity.cloudTest.User)
+2019-10-31 17:06:23.504 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Department> com.example.demo.controller.DepartmentController.departmentList()
+2019-10-31 17:06:23.505 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/],methods=[POST]}" onto public void com.example.demo.controller.DepartmentController.saveDept(com.example.demo.entity.mybaites.Department)
+2019-10-31 17:06:23.505 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/employee],methods=[GET]}" onto public java.util.List<com.example.demo.dto.ParentDeptDto> com.example.demo.controller.DepartmentController.deptToEmp()
+2019-10-31 17:06:23.509 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[POST]}" onto public void com.example.demo.controller.EmployeeController.save(com.example.demo.entity.mybaites.Employee)
+2019-10-31 17:06:23.511 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee],methods=[GET]}" onto public java.util.List<com.example.demo.entity.mybaites.Employee> com.example.demo.controller.EmployeeController.findAll()
+2019-10-31 17:06:23.511 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/employee/empInfo],methods=[GET]}" onto public com.example.demo.dto.EmployeeToDept com.example.demo.controller.EmployeeController.employeeToDept(java.lang.Long)
+2019-10-31 17:06:23.512 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.example.demo.controller.IndexController.index(java.security.Principal,javax.servlet.http.HttpServletResponse)
+2019-10-31 17:06:23.514 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/student/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.test.User> com.example.demo.controller.StudentController.userList()
+2019-10-31 17:06:23.515 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jwt/token],methods=[GET]}" onto public com.example.demo.dto.TokenResult com.example.demo.controller.TokenController.token(java.lang.String)
+2019-10-31 17:06:23.523 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[GET]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.userList()
+2019-10-31 17:06:23.524 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/find],methods=[POST]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUser(com.example.demo.entity.cloudTest.User)
+2019-10-31 17:06:23.524 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/grantsAge],methods=[GET],params=[age]}" onto public java.util.List<com.example.demo.entity.cloudTest.User> com.example.demo.controller.UserController.findUsersGrants(int)
+2019-10-31 17:06:23.525 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/],methods=[POST]}" onto public java.lang.String com.example.demo.controller.UserController.saveInfo(com.example.demo.entity.cloudTest.User)
+2019-10-31 17:06:23.529 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-31 17:06:23.530 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-10-31 17:06:23.798 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-31 17:06:23.799 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-31 17:06:23.921 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in springExceptionHandle
+2019-10-31 17:06:24.117 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-31 17:06:27.213 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-10-31 17:06:27.213 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/druid/**'], []
+2019-10-31 17:06:27.748 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d4bdb75, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d619aa0, org.springframework.security.web.header.HeaderWriterFilter@8551ee6, org.springframework.security.web.authentication.logout.LogoutFilter@616e7884, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@54500139, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@71e6bac0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6245303e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51413d02, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1dc47df3, org.springframework.security.web.session.SessionManagementFilter@435b944c, org.springframework.security.web.access.ExceptionTranslationFilter@1caff0db, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22109f72]
+2019-10-31 17:06:27.836 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56587330, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f9083b4, org.springframework.security.web.header.HeaderWriterFilter@72e4905c, org.springframework.security.web.authentication.logout.LogoutFilter@405a296e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@77198cce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40f40221, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16441c13, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@227cba85, org.springframework.security.web.session.SessionManagementFilter@279b83ea, org.springframework.security.web.access.ExceptionTranslationFilter@d7645b2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56f3f9da]
+2019-10-31 17:06:29.175 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+2019-10-31 17:06:29.236 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 15000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-31 17:06:29.263 [main] INFO  org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	auto.commit.interval.ms = 100
+	auto.offset.reset = latest
+	bootstrap.servers = [127.0.0.1:9092]
+	check.crcs = true
+	client.id = consumer-1
+	connections.max.idle.ms = 540000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 15000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-10-31 17:06:29.436 [main] WARN  org.apache.kafka.clients.consumer.ConsumerConfig - The configuration 'linger.ms' was supplied but isn't a known config.
+2019-10-31 17:06:29.443 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 0.10.1.1
+2019-10-31 17:06:29.444 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : f10ef2720b03b247
+2019-10-31 17:06:29.487 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 41.513 seconds (JVM running for 47.39)
+2019-10-31 17:06:29.674 [main] INFO  com.example.demo.kafka.service.Producer - kafka send messages
+2019-10-31 17:06:29.685 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [127.0.0.1:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-10-31 17:06:29.711 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	block.on.buffer.full = false
+	bootstrap.servers = [127.0.0.1:9092]
+	buffer.memory = 33554432
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-10-31 17:06:29.747 [main] WARN  org.apache.kafka.clients.producer.ProducerConfig - The configuration 'session.timeout.ms' was supplied but isn't a known config.
+2019-10-31 17:06:29.747 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 0.10.1.1
+2019-10-31 17:06:29.748 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : f10ef2720b03b247
+2019-10-31 17:06:30.216 [kafka-producer-network-thread | producer-1] INFO  com.example.demo.kafka.service.Producer - test-----消息发送成功------org.springframework.kafka.support.SendResult@5db5271a
+2019-10-31 17:06:30.243 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@2a3c96e3: startup date [Thu Oct 31 17:05:49 CST 2019]; root of context hierarchy
+2019-10-31 17:06:30.247 [Thread-2] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+2019-10-31 17:06:30.262 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - Consumer stopped
+2019-10-31 17:06:30.273 [Thread-2] INFO  org.apache.kafka.clients.producer.KafkaProducer - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2019-10-31 17:06:30.286 [Thread-2] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'testPersistence'
+2019-10-31 17:06:30.290 [Thread-2] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'cloudTestPersistence'
+2019-10-31 17:06:30.301 [Thread-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2019-10-31 17:06:30.305 [Thread-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

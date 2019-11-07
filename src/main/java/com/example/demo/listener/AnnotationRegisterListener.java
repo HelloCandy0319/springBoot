@@ -3,6 +3,7 @@ package com.example.demo.listener;
 import com.example.demo.entity.cloudTest.User;
 import com.example.demo.event.RegisterUserEvent;
 import com.example.demo.service.UserService;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.event.SmartApplicationListener;
 import org.springframework.scheduling.annotation.Async;
